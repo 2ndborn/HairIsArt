@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap:100,200,300,400,500,600,700|Cormorant+Garamond:100,200,300,400,500,600,700');
+
+
+/* --------------------------------------------------Body */
+body {
+    background-color: pink;
+}
+
+/* --------------------------------------------------Heading */
+
+body {
+  font-family: "Prata", sans-serif;
+}
+
+#logo {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 300%;
+    margin-left: 20px;    
+}
+
+#logo li a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Prata", sans-serif;
+}
+
+#menu {
+    font-size: 130%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 25px;     
+}
+
+
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid blue;
+}
+
+#heroimage {
+    background-image: url("../images/hin\ hero\ image.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat center center;
+    background-position: cover;
+}
+
+/* --------------------------------------------------Special Areas */
+h2 {
+    margin-left: 10px;
+}
+
+
+/* --------------------------------------------------About Me */
+
+.profile-pic {
+    height: 300px;
+    width: 275px;
+    background-image: url("../images/Kara.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-left: 75px;    
+}
+
+.about-text {
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.about-text h2 {
+    margin-left: 0;
+}
+
+/* --------------------------------------------------Skills and Services */
+.tile-detail {
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+/* --------------------------------------------------Testimonials */
+.test-container {
+    height: 150px;
+    width: 400px;
+    text-align: justify;
+    margin-left: 10px;      
+}
+
+.checked {
+    color: orange;
+}
+
+.test-1 {
+    background-color: aqua;
+}
+
+/* --------------------------------------------------Footer */
+
+#footer-detail {
+    background-color: lightgray;
+    min-height: 10px;
+    text-align: left;    
+    position: relative;
+}
+
+.footer-positioning {
+    padding-top: 10px;
+}
+
