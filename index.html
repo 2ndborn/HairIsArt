@@ -15,30 +15,32 @@
 
 <body>
     <header>
-        <div>                   
-            <a href="index.html">
-                <h1 id="logo">Hair Is Art</h1>  
-                </a>            
-                <nav>
-                    <div class="row">
-                        <div class="col">
-                            <ul id="menu" class="list-inline">
-                                <li class="list-inline-item">
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">Gallery</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">Contact</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">Download</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>                
+        <div class="row">
+            <div class="col-6">
+                <ul id="logo" class="list-inline">
+                    <li class="list-inline-item">
+                       <a href="index.html">
+                        <h1>Hair Is Art</h1>
+                       </a>
+                    </li>
+                </ul>
+            </div>                 
+            <div class="col">
+                <ul id="menu" class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Download</a>
+                    </li>    
+                </ul>
+            </div>              
         </div>
      </header>
      <section>
@@ -46,12 +48,21 @@
      </section>
      <br>
     <section>
-        <h2>About Me</h2>
-        <br>
-        <p>My name is Kara Francis and I have been in the hair industry for over 2 decades. I am a specialist in the colouring and
-        cutting of all hair textures. Making people look and feel their best is something I take pride in as I strongly believe
-        that everyone has something that makes them uniquely beautiful. My job is to bring to light that which is already there,
-        so they can leave my chair oozing with confidence and strutting to the sound of their own personal theme tune.</p>
+        <div class="row">
+            <div class="col-8 about-text">
+                <h2>About Me</h2>
+                <br>
+                <p>My name is Kara Francis and I have been in the hair industry for over 2 decades. I am a specialist in the colouring and
+                cutting of all hair textures. Making people look and feel their best is something I take pride in as I strongly believe
+                that everyone has something that makes them uniquely beautiful. My job is to bring to light that which is already there,
+                so they can leave my chair oozing with confidence and strutting to the sound of their own personal theme tune.
+                </p>
+            </div>
+            <div class="col-4 profile-pic"></div>
+        </div>
+        
+        
+        
     </section>
     <br>
     <section>
@@ -88,34 +99,38 @@
         <h2>Testimonials</h2>
         <br>
         <div class="row">
-            <div class="col list-inline">
-                <div class="list-inline-item test-container">
+            <div class="col-4 list-inline">
+                <div class="list-inline-item test-container test-1">
                     <h6>Jane</h6>
-                    <p>My colourist Kara is super knowledgeable and is really passionate about colour. I just love the hot towel and head
-                    massage when I’m at the wash station. All in all, it’s a 5-star service for me every time! Best hairdresser in London.</p>
+                    <p><span><i class="fa fa-quote-left" aria-hidden="true"></i></span> <i>My colourist Kara is super knowledgeable and is really passionate about colour. I just love the hot towel and head
+                    massage when I’m at the wash station. All in all, it’s a 5-star service for me every time! Best hairdresser in London.</i>  <span><i class="fa fa-quote-right" aria-hidden="true"></i></span></p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                 </div>
+            </div>
+            <div class="col-4 list-inline">
                 <div class="list-inline-item test-container">
                     <h6>Naomi</h6>
-                    <p>Upon meeting Kara for the first time my hair was very damaged. The warm welcome I received was followed up with an offer
+                    <p><span><i class="fa fa-quote-left" aria-hidden="true"></i></span> <i>Upon meeting Kara for the first time my hair was very damaged. The warm welcome I received was followed up with an offer
                     of tea or coffee. She listened to my hair woes before making me feel at ease. I received a conditioning treatment, cut
                     and blow dry. Kara is very experienced and is very knowledgeable about all hair types. She gave me loads of advice, tips
                     and tricks to nurse my hair back to good health. The experience was amazing! I left the salon with my hair looking 100%
-                    better than when I came in. I wish she could do my hair every day, but I’ll be back in six weeks!</p>
+                    better than when I came in. I wish she could do my hair every day, but I’ll be back in six weeks!</i>   <span><i class="fa fa-quote-right" aria-hidden="true"></i></span></p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                 </div>
+            </div>
+            <div class="col-4 list-inline">
                 <div class="list-inline-item test-container">
                     <h6>Karen</h6>
-                    <p>As always, I had an amazing time with Kara… My hair is brought back to life. Thank you so much, my hair is beautiful you
-                    are one talented lady XXX!</p>
+                    <p><span><i class="fa fa-quote-left" aria-hidden="true"></i></span> <i>As always, I had an amazing time with Kara… My hair is brought back to life. Thank you so much, my hair is beautiful you
+                    are one talented lady XXX!</i>  <span><i class="fa fa-quote-right" aria-hidden="true"></i></span></p>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -124,15 +139,32 @@
                 </div>
             </div>
         </div>
+        <br>
     </section>
     <footer id="footer-detail">
         <div class="row">
-            <div class="col-6">
-                <h6>Download-CV</h6>
-                <ul class="list-inline">
+            <div class="col-4"></div>
+            <div class="col-4">              
+                <ul class="list-inline footer-positioning">
+                    <li class="list-inline-item">
+                        <h5>Download-CV</h5>
+                    </li>
                     <li class="list-inline-item">
                         <a href="#" target="_blank">
                             <i class="fa fa-download" aria-hidden="true"></i>
+                            <span class="sr-only">Download link</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul class="list-inline footer-positioning">
+                    <li class="list-inline-item">
+                        <h5>Social</h5>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Download link</span>
                         </a>
                     </li>
