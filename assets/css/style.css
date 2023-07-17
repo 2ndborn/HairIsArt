@@ -8,11 +8,13 @@
 
 body {
   font-family: "Prata", sans-serif;
-  background-color: #ffe6ff; 
+  background-color: #ffe6ff;
+  
 }
 
 header {
     background-color: #ffe6ff;
+    width: 100vw;
 }
 
 #logo {
@@ -28,7 +30,8 @@ header {
 }
 
 #menu {
-    font-size: 130%;        
+    font-size: 130%; 
+    font-weight: 500;       
     list-style-type: none;
     letter-spacing: 2px;
     text-align: right;
@@ -44,54 +47,37 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #330033;
 }
 
 #heroimage {
     background-image: url("../images/hin\ hero\ image.jpg");
     height: 1050px;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat center center;
     background-size: 100%;
 }
-
-/* --------------------------------------------------Special Areas */
-h2 {
-    font-family: "Prata", sans-serif;
-}
-
-
-
-
-
 
 /* --------------------------------------------------About Me */
 .bg-about {    
     background-position: bottom;
     height: 450px;
-    width: 100%;
-}
-
-.about-heading {
-    color: #ffe6ff;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100vw;
 }
 
 #profile-pic {
     height: 300px;
     width: 275px;
     background-image: url("../images/Kara.jpg");
-    background-repeat: no-repeat;    f
+    background-repeat: no-repeat;
 }
 
 #about-text {       
-    width: 100%;
+    width: 100vw;
     height: 300px;
     background-color: rgba(0, 0, 0, 0.5);
     top: 837px;
-    position: absolute;
+    position: absolute;    
 }
 
 #about-text > h2 {
@@ -103,7 +89,8 @@ h2 {
 #about-text > p {
     text-align: center;
     color: #ffe6ff;
-    margin: 50px;
+    margin: 15px;
+    
 }
 
 .button {
@@ -132,9 +119,14 @@ h2 {
 
 
 /* --------------------------------------------------Skills and Services */
+#skills-bg {
+    background-color: #ffe6ff;      
+}
+
 #skills-heading {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;    
 }
 
 .tile-detail-cutting {
@@ -149,6 +141,7 @@ h2 {
     margin-left: 27px;
     margin-bottom: 25px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .tile-detail-colour {
@@ -163,6 +156,7 @@ h2 {
     margin-left: 27px;
     margin-bottom: 25px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .tile-detail-styling {
@@ -176,7 +170,8 @@ h2 {
     padding-top: 90px;
     margin-left: 27px;
     margin-bottom: 25px;
-    border-radius: 10px;    
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .tile-detail-tvfilm {
@@ -192,6 +187,7 @@ h2 {
     margin-bottom: 25px;
     border-radius: 10px;
     color: white;
+    box-sizing: border-box;
 }
 
 .tile-detail-events {
@@ -206,6 +202,7 @@ h2 {
     margin-left: 27px;
     margin-bottom: 25px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .tile-detail-education {
@@ -243,7 +240,7 @@ h2 {
     color: orange;
 }
 
-#test-heading {
+#heading {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -257,27 +254,22 @@ h2 {
     margin-left: 5px;
 }
 
-.flex-container div h6
+
 /* --------------------------------------------------Footer */
 
-#footer-detail {
-    background-color: #ffe6ff;
-    min-height: 10px;
-    text-align: left;    
-    position: relative;
+#footer-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.footer-positioning {       
-    padding-top: 10px;
-}
-
-.footer-heading {
-    color: #330033;
+#footer-container h5 {
+    font-weight: 500;
 }
 
 .icons {
     margin: 10px;
-    color: black;
+    font-size: larger;
+    color: #330033;
 }
 
 .icons:hover {
@@ -285,3 +277,100 @@ h2 {
     background-color: #330033;
 }
 
+
+/* --------------------------------------------------Gallery */
+
+#gallery-bg {
+    background-color: #330033;
+    padding-top: 20px;
+}
+
+.gallery-tiles {
+    height: 200px;
+    width: 21.99999%;
+    background-color: white;
+    background-image: url("../images/Mitsuri.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 23px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    color: black;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-tiles {
+            height: 200px;
+            width: 44.99999%;            
+            background-image: url("../images/Mitsuri.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat center center;
+            padding-top: 90px;
+            margin-left: 23px;
+            margin-bottom: 25px;
+            border-radius: 10px;        
+        }
+}
+
+/* --------------------------------------------------Contact */
+
+#googleMap {
+    width: 75%;
+    height: 90%;
+    margin: auto;
+    top: 20px;
+}
+
+function myMap() {
+    var mapProp= {
+        center: new google.maps.LatLng(51.508742, -0.120850),
+            zoom:5,
+    }
+
+    ;
+    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+
+.map-container {
+    height: 440px;
+}
+
+.map-bg {
+    background-color: white;
+    height: 110%;
+}
+
+.contact-container {
+    background-color: #330033;
+    color: #ffe6ff;
+    margin-top: 10px;
+}
+
+.form-position {
+    margin: auto;
+    max-width: 40%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-icons {
+    margin: 0 25px;
+    font-size: x-large;
+}
+
+.contact-text {
+    margin-left: 30px;
+}
+
+/* --------------------------------------------------Media Queries */
+
+@media (min-width: 768px) {
+    
+}
