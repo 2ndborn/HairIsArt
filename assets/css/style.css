@@ -9,88 +9,78 @@
 body {
   font-family: "Prata", sans-serif;
   background-color: #ffe6ff;
-  
-}
+  color: #330033;
+ }
 
 header {
     background-color: #ffe6ff;
-    width: 100vw;
+    height: 90px;
 }
 
 #logo {
-    text-align: left;
+    float: left;    
     letter-spacing: 2px;
-    font-size: 300%;
-    margin-left: 20px;
-}
-
-#logo li a {
-    text-decoration: none;
+    font-size: 400%;
     color: #330033;
+    padding-left: 30px;
 }
 
 #menu {
-    font-size: 130%; 
+    font-size: 175%; 
     font-weight: 500;       
     list-style-type: none;
-    letter-spacing: 2px;
-    text-align: right;
-    margin-top: 25px;
-    margin-right: 25px;     
+    letter-spacing: 2px;     
 }
 
+#logo, #menu {
+    line-height: 75px;
+}
 
+#menu li {
+    float: right;
+    margin-right: 25px;    
+}
 
 #menu a {
     text-decoration: none;
-    color: #330033;
+    color: inherit;
 }
 
 #menu a:hover {
     border-bottom: 1px solid #330033;
 }
 
-#heroimage {
-    background-image: url("../images/hin\ hero\ image.jpg");
-    height: 1050px;
-    width: 100vw;
-    background-repeat: no-repeat center center;
-    background-size: 100%;
+.active-page {
+    border-bottom: 1px solid #330033;
+}
+
+#heroimage {    
+    height: 950px;
+    width: 100%;
+    background: url("../images/hin\ hero\ image.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: 5%;    
 }
 
 /* --------------------------------------------------About Me */
-.bg-about {    
-    background-position: bottom;
-    height: 450px;
-    width: 100vw;
-}
-
-#profile-pic {
-    height: 300px;
-    width: 275px;
-    background-image: url("../images/Kara.jpg");
-    background-repeat: no-repeat;
-}
-
 #about-text {       
-    width: 100vw;
+    width: 100%;
     height: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 837px;
+    background-color: rgba(0, 0, 0, 0.5);    
+    top: 756px;
     position: absolute;    
 }
 
 #about-text > h2 {
     text-align: center;
     color: #ffe6ff;
-    margin-top: 30px;
+    margin: 30px;
 }
 
 #about-text > p {
     text-align: center;
     color: #ffe6ff;
-    margin: 15px;
-    
+    margin: 10px 30px;    
 }
 
 .button {
@@ -120,109 +110,32 @@ header {
 
 /* --------------------------------------------------Skills and Services */
 #skills-bg {
-    background-color: #ffe6ff;      
+    background-color: #ffe6ff;
+    margin-left: 30px;
+    overflow: hidden;    
 }
 
-#skills-heading {
+#skills-bg h2 {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;    
+    margin: 25px 0 10px 0;
 }
 
-.tile-detail-cutting {
-    height: 200px;
-    width: 375px;    
-    background-image: url("../images/Cutting.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 27px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-
-.tile-detail-colour {
-    height: 200px;
-    width: 375px;
-    background-image: url("../images/colour.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 27px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-
-.tile-detail-styling {
-    height: 200px;
-    width: 375px;
-    background-image: url("../images/styling.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 27px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-
-.tile-detail-tvfilm {
-    height: 200px;
-    width: 375px;
-    background-image: url("../images/tvfilm.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 27px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    color: white;
-    box-sizing: border-box;
-}
-
-.tile-detail-events {
-    height: 200px;
-    width: 375px;
-    background-image: url("../images/events.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 27px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-
-.tile-detail-education {
-    height: 200px;
-    width: 375px;
-    background-image: url("../images/education.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 27px;
-    margin-bottom: 25px;
-    border-radius: 10px;
+#skills-bg div {   
+   width: 30%;
+   height: 200px;
+   float: left;
+   background-color: grey; 
+   text-align: center;
+   padding-top: 90px;
+   margin: 15px;
+   border-radius: 10px; 
 }
 
 /* --------------------------------------------------Testimonials */
 .bg-colour-testimonials {
     background-color: white;
     height: 400px;
+    overflow: hidden;
 }
 
 .flex-container {
@@ -254,35 +167,26 @@ header {
     margin-left: 5px;
 }
 
-
-/* --------------------------------------------------Footer */
-
-#footer-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#footer-container h5 {
-    font-weight: 500;
-}
-
-.icons {
-    margin: 10px;
-    font-size: larger;
-    color: #330033;
-}
-
-.icons:hover {
-    color: #ffe6ff;
-    background-color: #330033;
-}
-
-
 /* --------------------------------------------------Gallery */
 
 #gallery-bg {
     background-color: #330033;
-    padding-top: 20px;
+    width: 100%;
+    height: 475px;
+    margin: 0 0 10px 0;
+    padding: 7px 0 0 27px;   
+    overflow: hidden;
+}
+
+#gallery-bg div {
+    height: 200px;
+    width: 21.99999%;
+    float: left;
+    background-color: grey;
+    text-align: center;
+    padding-top: 90px;
+    margin: 15px;
+    border-radius: 10px;
 }
 
 .gallery-tiles {
@@ -302,38 +206,11 @@ header {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-    .gallery-tiles {
-            height: 200px;
-            width: 44.99999%;            
-            background-image: url("../images/Mitsuri.jpg");
-            background-size: 100%;
-            background-repeat: no-repeat center center;
-            padding-top: 90px;
-            margin-left: 23px;
-            margin-bottom: 25px;
-            border-radius: 10px;        
-        }
-}
+
 
 /* --------------------------------------------------Contact */
 
-#googleMap {
-    width: 75%;
-    height: 90%;
-    margin: auto;
-    top: 20px;
-}
 
-function myMap() {
-    var mapProp= {
-        center: new google.maps.LatLng(51.508742, -0.120850),
-            zoom:5,
-    }
-
-    ;
-    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
 
 .map-container {
     height: 440px;
@@ -369,8 +246,155 @@ button[type="submit"] {
     margin-left: 30px;
 }
 
+/* --------------------------------------------------Footer */
+
+footer {
+    height: 50px;
+    position: relative;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer-info li {
+    font-size: 160%; 
+    list-style-type: none;
+    display: inline-block;
+    color: #330033;
+    padding: 5px;
+    margin: 1%;
+    
+}
+
+.footer-info i {
+    color: #330033;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+
 /* --------------------------------------------------Media Queries */
 
-@media (min-width: 768px) {
+@media screen and (max-width: 943px) {  
+    #heroimage {
+        height: 860px;
+        width: 100%;
+        background: url("../images/hin\ hero\ image.jpg") no-repeat;
+        background-size: cover;
+        background-position-y: 5%;
+    }
+
+    #about-text {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 665px;
+        position: absolute;
+    }
     
+    #skills-bg {
+        background-color: #ffe6ff;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    
+    #skills-bg h2 {
+        text-align: center;
+        margin: 25px 0 10px 0;
+    }
+
+    #skills-bg div {
+        width: 45%;
+        height: 200px;
+        float: left;
+        background-color: grey;
+        text-align: center;
+        padding-top: 90px;
+        margin: 15px;
+        border-radius: 10px;
+    }   
+
+   #gallery-bg {
+       background-color: #330033;
+       width: 100%;
+       height: 950px;
+       margin: 0 0 10px 0;
+       padding: 7px 0 0 27px;
+       overflow: hidden;
+   }
+
+   #gallery-bg div {
+       height: 200px;
+       width: 44%;
+       float: left;
+       background-color: grey;
+       text-align: center;
+       padding-top: 90px;
+       margin: 17px;
+       border-radius: 10px;
+   }
+
+   .disappear {
+       display: none;
+   }
+
+   .flex-container>div {
+       height: 150px;
+       width: 375px;
+       text-align: center;
+       padding: 0 
+       7px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+    #heroimage {
+        height: 860px;
+        width: 100%;
+        background: url("../images/hin\ hero\ image.jpg") no-repeat;
+        background-size: cover;
+        background-position-y: 5%;
+        background-position-x: 50%;
+    }
+
+        #about-text {
+        width: 100%;
+        height: 440px;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 525px;
+        position: absolute;
+    }
+
+        #skills-bg div {
+        width: 90%;
+        height: 200px;
+        float: left;
+        background-color: grey;
+        text-align: center;
+        padding-top: 90px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+        #gallery-bg {
+            background-color: #330033;
+            width: 100%;
+            height: 1900px;
+            margin: 0 0 10px 0;
+            padding: 7px 0 0 8px;
+            overflow: hidden;
+        }
+    
+        #gallery-bg div {
+            height: 200px;
+            width: 90%;
+            float: left;
+            background-color: grey;
+            text-align: center;
+            padding-top: 90px;
+            margin: 17px;
+            border-radius: 10px;
+        }
 }
