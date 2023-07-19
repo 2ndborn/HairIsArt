@@ -15,49 +15,34 @@
 
 <body>
     <header>
-        <div class="row">
-            <div class="col-6">
-                <ul id="logo" class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="index.html">
-                            <h1>Hair Is Art</h1>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col">
-                <ul id="menu" class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Gallery</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Contact</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">Download</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <a href="index.html">
+            <h1 id="logo">Hair Is Art</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Download</a>
+                </li>
+                <li>
+                    <a class="active-page"href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section class="map-bg">
         <div class="map-container">
             <div id="googleMap"></div>
         </div>
-        <script>
-            function myMap() {
-                var mapProp = {
-                    center: new google.maps.LatLng(51.49931721791364, -0.15695446829600668),
-                    zoom: 5,
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            }
-        </script>
-        
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+            &q=Space+Needle,Seattle+WA">
+        </iframe>
     </section>  
     <div class="contact-container">
         <section>
@@ -117,36 +102,27 @@
             </div>        
         </section>
     </div>
-    <footer id="footer-detail">
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
-                <ul class="list-inline footer-positioning">
-                    <li class="list-inline-item">
-                        <h5 class="footer-heading">Download-CV</h5>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fa fa-download icons" aria-hidden="true"></i>
-                            <span class="sr-only">Download link</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-4">
-                <ul class="list-inline footer-positioning">
-                    <li class="list-inline-item">
-                        <h5 class="footer-heading">Social</h5>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fa fa-instagram icons" aria-hidden="true"></i>
-                            <span class="sr-only">Social link</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <footer>
+        <ul class="footer-info">
+            <li>
+                <h5>Download-CV</h5>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">Download link</span>
+                </a>
+            </li>
+            <li>
+                <h5>Social</h5>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Download link</span>
+                </a>
+            </li>
+        </ul>
     </footer>
 </body>
 
