@@ -482,13 +482,14 @@ footer {
 
     #logo {
             font-size: 250%;
-            margin-left: 20%;
+            margin-left: 25%;
             margin-top: 5%;
     }
 
     #menu {
-        font-size: 98.4375%
-        float    
+        font-size: 98.4375%;
+        float: left;
+        margin-left: 11%;
     }
 
     .heroimage {
@@ -500,34 +501,60 @@ footer {
         background-position-x: 50%;
     }
 
-        .about-text {
-            width: 100%;
-            height: 442px;
-            background-color: rgba(0, 0, 0, 0.5);
-            top: 325px;
-            position: absolute;
-        }
+    .about-text {
+        width: 100%;
+        height: 442px;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 325px;
+        position: absolute;
+    }
 
-        .skills-bg {
-            background-color: #ffe6ff;
-            margin-left: 10px;
-            overflow: hidden;
-            padding-bottom: 10px;
-        }
+    .skills-bg {
+        background-color: #ffe6ff;
+        margin-left: 10px;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
 
-        .skills-bg div {
-            width: 90%;
-            height: 200px;
-            float: left;
-            background-color: grey;
-            text-align: center;
-            padding-top: 90px;
-            margin: 4%;
-            border-radius: 10px;
-        }
+    .skills-bg div {
+        width: 90%;
+        height: 200px;
+        float: left;
+        background-color: grey;
+        text-align: center;
+        padding-top: 90px;
+        margin: 4%;
+        border-radius: 10px;
+    }
+
+    .bg-colour-testimonials {
+        height: 600px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .flex-container > div {
+        height: 150px;
+        width: 90%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+    }
+
+    .gallery-bg {
+        height: 1925px;
+        padding-right: 3%;
+    }
+
+    .gallery-bg > div {
+        width: 90%;
+    }
 }
 
-@media (max-width:450px) {
+@media (max-width:414px) {
 
     header {
         height: 180px;
@@ -535,13 +562,14 @@ footer {
 
     #logo {
         font-size: 300%;
-        margin-left: 10%;
+        margin-left: 12%;
         margin-top: 5%;
     }
 
     #menu {
-        font-size: 92.828125%;
+        font-size: 70.828125%;
         float: left;
+        padding-left: 2.5%;
     }
 
     .heroimage {
@@ -585,27 +613,20 @@ footer {
         overflow: hidden;
     }
 
-    #heading {
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
     .flex-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     } 
     
-        .flex-container>div {
-            height: 150px;
-            width: 90%;
-            margin-bottom: 15%;
-            margin-left: 5%;
-        }
+    .flex-container > div {
+        height: 150px;
+        width: 90%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+    }
 
-    #gallery-bg {
+    .gallery-bg {
         background-color: #330033;
         width: 100%;
         height: 1900px;
@@ -614,7 +635,7 @@ footer {
         overflow: hidden;
     }
 
-    #gallery-bg div {
+    .gallery-bg div {
         height: 200px;
         width: 90%;
         float: left;
@@ -627,4 +648,124 @@ footer {
 
     .footer-info li {
         margin-right: 4%;
+    }
 }
+
+@media (max-width:390px) {
+
+    #logo {        
+        margin-left: 10%;
+        margin-top: 7%;
+    }
+
+    .about-text {
+        width: 100%;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 415px;
+        position: absolute;
+    }
+
+    .bg-colour-testimonials {
+        height: 650px;
+    }
+
+    .flex-container > div {
+        margin-bottom: 25%;
+    }
+
+    .footer-info li {
+        margin-right: 3%;
+    }
+}
+
+@media (max-width:375px) {
+
+    .footer-info li {
+            margin-right: 3%;
+            font-size: small;
+        }
+}
+
+@media (max-width:360px) {
+    
+    #logo {            
+            margin-left: 5%;
+            margin-top: 7%;
+        }
+
+    #menu {
+        font-size: 60.828125%;        
+    }
+
+    .heroimage {
+        height: 720px;
+        width: 100%;
+        background: url("../images/hin\ hero\ image.jpg") no-repeat;
+        background-size: cover;
+        background-position-y: 5%;
+        background-position-x: 50%;
+    }
+
+    .about-text {
+        width: 100%;
+        height: 475px;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 427px;
+        position: absolute;
+    }
+
+    .footer-info li {
+        margin-right: 3%;
+        font-size: medium;
+    }   
+    
+}
+
+@media (max-width:280px) {
+
+    #logo {
+        font-size: 200%;
+        margin-left: 7%;
+        margin-top: 7%;
+    }
+
+    #menu {
+        font-size: 50.828125%;
+        letter-spacing: 0;
+    }
+
+        .heroimage {
+            height: 720px;
+            width: 100%;
+            background: url("../images/hin\ hero\ image.jpg") no-repeat;
+            background-size: cover;
+            background-position-y: 5%;
+            background-position-x: 50%;
+        }
+    
+        .about-text {
+            width: 100%;
+            height: 600px;
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 300px;
+            position: absolute;
+        }
+
+        .skills-bg div {
+            width: 85%;
+        }
+
+        .gallery-bg > div {
+            width: 85%;
+        }
+
+        .bg-colour-testimonials {
+            height: 750px;
+        }
+
+        .flex-container > div {
+            margin-bottom: 55%;
+        }
+    
+    }
