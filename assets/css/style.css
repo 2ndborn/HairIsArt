@@ -3,15 +3,12 @@
 
 /* --------------------------------------------------Body */
 
-
-/* --------------------------------------------------Heading */
-
 body {
-  font-family: "Prata", sans-serif;
-  background-color: #ffe6ff;
-  color: #330033;
- }
-
+font-family: "Prata", sans-serif;
+background-color: #ffe6ff;
+color: #330033;
+}
+/* --------------------------------------------------Heading */
 header {
     background-color: #ffe6ff;
     height: 90px;
@@ -112,6 +109,7 @@ header {
 #skills-bg {
     background-color: #ffe6ff;
     margin-left: 30px;
+    padding-bottom: 20px;
     overflow: hidden;    
 }
 
@@ -121,14 +119,48 @@ header {
 }
 
 #skills-bg div {   
-   width: 30%;
-   height: 200px;
-   float: left;
-   background-color: grey; 
-   text-align: center;
-   padding-top: 90px;
-   margin: 15px;
-   border-radius: 10px; 
+    width: 30%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    padding-top: 90px;
+    margin: 15px;
+    border-radius: 10px; 
+    position: relative;
+}
+
+#cutting {
+    background-image: url('../images/cutting.jpg');
+    background-size: 100%;
+}
+
+#colour {
+    background-image: url('../images/colour.jpg');
+    background-size: 100% 100%;
+}
+
+#styling {
+    background-image: url('../images/styling.jpg');
+    background-size: 100% 100%;
+}
+
+#tvfilm {
+    background-image: url('../images/tvfilm.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffe6ff;
+}
+
+#events {
+    background-image: url('../images/events.jpg');
+    background-size: 100%;
+    background-position-y: 10%;
+}
+
+#education {
+    background-image: url('../images/education.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /* --------------------------------------------------Testimonials */
@@ -210,15 +242,24 @@ header {
 
 /* --------------------------------------------------Contact */
 
-
-
-.map-container {
-    height: 440px;
+#map-bg {
+    background-color: #ffe6ff;
+    height: 450px;
 }
 
-.map-bg {
-    background-color: white;
-    height: 110%;
+#map-bg div{
+    height: 420px;
+    width: 80%;
+    background-color: gray;
+    margin-left: 130px;
+    margin-top: 10px;
+    border: #330033 5px solid;
+}
+
+iframe {
+    width: 100%;
+    height: 410px;
+    border: 0;
 }
 
 .contact-container {
@@ -227,10 +268,17 @@ header {
     margin-top: 10px;
 }
 
-.form-position {
-    margin: auto;
-    max-width: 40%;
+#contact-details {
+    float:left
+    
 }
+
+form {
+    max-width: 40%;
+    float: right;
+}
+
+
 
 button[type="submit"] {
     margin-top: 15px;
@@ -272,12 +320,10 @@ footer {
     color: #330033;
     text-decoration: none;
     margin-left: 1%;
-}
-
-
+    }
 /* --------------------------------------------------Media Queries */
+@media (max-width:992px) {
 
-@media screen and (max-width: 943px) {  
     #heroimage {
         height: 860px;
         width: 100%;
@@ -293,63 +339,111 @@ footer {
         top: 665px;
         position: absolute;
     }
-    
+
     #skills-bg {
         background-color: #ffe6ff;
-        margin-left: 10px;
+        margin-left: 20px;
+        padding-bottom: 20px;
         overflow: hidden;
     }
-    
-    #skills-bg h2 {
-        text-align: center;
-        margin: 25px 0 10px 0;
-    }
 
-    #skills-bg div {
+    #skills-bg > div {
         width: 45%;
         height: 200px;
-        float: left;
-        background-color: grey;
+        float:left;
         text-align: center;
         padding-top: 90px;
         margin: 15px;
         border-radius: 10px;
-    }   
+    }
 
-   #gallery-bg {
-       background-color: #330033;
-       width: 100%;
-       height: 950px;
-       margin: 0 0 10px 0;
-       padding: 7px 0 0 27px;
-       overflow: hidden;
-   }
+    #gallery-bg {
+        background-color: #330033;
+        width: 100%;
+        height: 950px;
+        margin: 0 0 10px 0;
+        padding: 7px 0 0 27px;
+    }
 
-   #gallery-bg div {
-       height: 200px;
-       width: 44%;
-       float: left;
-       background-color: grey;
-       text-align: center;
-       padding-top: 90px;
-       margin: 17px;
-       border-radius: 10px;
-   }
+    #gallery-bg div {
+        height: 200px;
+        width: 44%;
+        float: left;
+        background-color: grey;
+        text-align: center;
+        padding-top: 90px;
+        margin: 17px;
+        border-radius: 10px;
+    }
 
-   .disappear {
-       display: none;
-   }
+    .disappear {
+        display: none;
+    }
 
-   .flex-container>div {
-       height: 150px;
-       width: 375px;
-       text-align: center;
-       padding: 0 
-       7px;
-   }
+    #map-bg {
+        background-color: #ffe6ff;
+        height: 450px;
+    }
+
+    #map-bg div {
+        height: 420px;
+        width: 80%;
+        background-color: gray;
+        margin-left: 130px;
+        margin-top: 10px;
+        border: #330033 5px solid;
+    }    
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width:768px) {
+  
+    #skills-bg {
+        background-color: #ffe6ff;
+        margin-left: 17px;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    #skills-bg>div {
+        width: 45%;
+        height: 200px;
+        float: left;
+        text-align: center;
+        padding-top: 90px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    #gallery-bg {
+        background-color: #330033;
+        width: 100%;
+        height: 950px;
+        margin: 0 0 10px 0;
+        padding: 7px 0 0 27px;
+    }
+
+    #gallery-bg div {
+        height: 200px;
+        width: 44%;
+        float: left;
+        background-color: grey;
+        text-align: center;
+        padding-top: 90px;
+        margin: 17px;
+        border-radius: 10px;
+    }
+
+    .mobile-style {
+        padding: 0 15px;
+    }
+
+    .disappear {
+        display: none;
+    }    
+}
+
+@media (max-width:600px) {
+
     #heroimage {
         height: 860px;
         width: 100%;
@@ -359,7 +453,7 @@ footer {
         background-position-x: 50%;
     }
 
-        #about-text {
+    #about-text {
         width: 100%;
         height: 440px;
         background-color: rgba(0, 0, 0, 0.5);
@@ -367,7 +461,14 @@ footer {
         position: absolute;
     }
 
-        #skills-bg div {
+    #skills-bg {
+        background-color: #ffe6ff;
+        margin-left: 10px;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+
+    #skills-bg div {
         width: 90%;
         height: 200px;
         float: left;
@@ -378,23 +479,52 @@ footer {
         border-radius: 10px;
     }
 
-        #gallery-bg {
-            background-color: #330033;
-            width: 100%;
-            height: 1900px;
-            margin: 0 0 10px 0;
-            padding: 7px 0 0 8px;
-            overflow: hidden;
-        }
-    
-        #gallery-bg div {
-            height: 200px;
+    .bg-colour-testimonials {
+        background-color: white;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    #heading {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mobile-style {
+        font-size: 15px;
+        margin-bottom: 75px;
+        margin-left: 15px;
+    }
+
+        .mobile-style p {
             width: 90%;
-            float: left;
-            background-color: grey;
-            text-align: center;
-            padding-top: 90px;
-            margin: 17px;
-            border-radius: 10px;
         }
+
+    #gallery-bg {
+        background-color: #330033;
+        width: 100%;
+        height: 1900px;
+        margin: 0 0 10px 0;
+        padding: 7px 0 0 8px;
+        overflow: hidden;
+    }
+
+    #gallery-bg div {
+        height: 200px;
+        width: 90%;
+        float: left;
+        background-color: grey;
+        text-align: center;
+        padding-top: 90px;
+        margin: 17px;
+        border-radius: 10px;
+    }
 }
