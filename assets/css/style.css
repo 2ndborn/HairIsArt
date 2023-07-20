@@ -51,7 +51,7 @@ header {
     border-bottom: 1px solid #330033;
 }
 
-#heroimage {    
+.heroimage {    
     height: 950px;
     width: 100%;
     background: url("../images/hin\ hero\ image.jpg") no-repeat;
@@ -60,7 +60,7 @@ header {
 }
 
 /* --------------------------------------------------About Me */
-#about-text {       
+.about-text {       
     width: 100%;
     height: 300px;
     background-color: rgba(0, 0, 0, 0.5);    
@@ -68,19 +68,19 @@ header {
     position: absolute;    
 }
 
-#about-text > h2 {
+.about-text > h2 {
     text-align: center;
     color: #ffe6ff;
     margin: 30px;
 }
 
-#about-text > p {
+.about-text > p {
     text-align: center;
     color: #ffe6ff;
     margin: 10px 30px;    
 }
 
-.button {
+.learn-more-button {
     border: none;
     color: white;
     padding: 10px 32px;
@@ -93,71 +93,71 @@ header {
     cursor: pointer;
 }
 
-.button1 {
+.learn-more-button-one {
     background-color: #ffe6ff;
     color: black;    
     border-radius: 10px;
 }
 
-.button1:hover {
+.learn-more-button-one:hover {
     background-color: black;
     color: #ffe6ff;
 }
 
 
 /* --------------------------------------------------Skills and Services */
-#skills-bg {
+.skills-bg {
     background-color: #ffe6ff;
-    margin-left: 30px;
+    margin-left: 3.5%;
     padding-bottom: 20px;
     overflow: hidden;    
 }
 
-#skills-bg h2 {
+.skills-bg h2 {
     text-align: center;
     margin: 25px 0 10px 0;
 }
 
-#skills-bg div {   
+.skills-bg div {   
     width: 30%;
     height: 200px;
     float: left;
     text-align: center;
     padding-top: 90px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 10px; 
     position: relative;
 }
 
-#cutting {
+.cutting {
     background-image: url('../images/cutting.jpg');
     background-size: 100%;
 }
 
-#colour {
+.colour {
     background-image: url('../images/colour.jpg');
     background-size: 100% 100%;
 }
 
-#styling {
+.styling {
     background-image: url('../images/styling.jpg');
     background-size: 100% 100%;
 }
 
-#tvfilm {
+.tvfilm {
     background-image: url('../images/tvfilm.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #ffe6ff;
 }
 
-#events {
+.events {
     background-image: url('../images/events.jpg');
     background-size: 100%;
     background-position-y: 10%;
 }
 
-#education {
+.education {
     background-image: url('../images/education.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ header {
 
 .flex-container > div {
     height: 150px;
-    width: 375px;
+    width: 30%;
     text-align: center;
 }
 
@@ -185,7 +185,7 @@ header {
     color: orange;
 }
 
-#heading {
+.test-heading {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -221,23 +221,6 @@ header {
     border-radius: 10px;
 }
 
-.gallery-tiles {
-    height: 200px;
-    width: 21.99999%;
-    background-color: white;
-    background-image: url("../images/Mitsuri.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    padding-top: 90px;
-    margin-left: 23px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    color: black;
-    box-sizing: border-box;
-}
-
 
 
 /* --------------------------------------------------Contact */
@@ -262,36 +245,55 @@ iframe {
     border: 0;
 }
 
+.consult-heading {
+    text-align: center;
+    padding-top: 2%;
+}
+
 .contact-container {
     background-color: #330033;
+    width: 100%;
+    height: 450px;
     color: #ffe6ff;
     margin-top: 10px;
 }
 
-#contact-details {
-    float:left
-    
+.contact-details {
+    list-style-type: none;
+    float: left;   
 }
 
-form {
-    max-width: 40%;
+.contact-form {
+    width: 40%;
     float: right;
+    margin-right: 3%;
+
 }
 
+.contact-details, .contact-form {
+    margin-top: 5%;
+}
 
+.contact-details li {
+    margin-bottom: 20px;
+}
+
+.contact-details li i {
+    padding-right: 10px;
+}
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.contact-icons {
-    margin: 0 25px;
-    font-size: x-large;
-}
-
 .contact-text {
     margin-left: 30px;
+}
+
+.form-row a {
+    text-decoration: none;
+    color: white;
 }
 
 /* --------------------------------------------------Footer */
@@ -321,10 +323,31 @@ footer {
     text-decoration: none;
     margin-left: 1%;
     }
-/* --------------------------------------------------Media Queries */
-@media (max-width:992px) {
 
-    #heroimage {
+.confirmation-container {
+    background-color: #330033;
+    width: 100%;
+    height: 600px;
+}
+
+.confirmation-container p {
+    color: #ffe6ff;
+    font-size: 500%;
+    text-align: center;
+    padding-top: 8%;
+}
+/* --------------------------------------------------Media Queries */
+@media (max-width:1024px) {    
+
+    #logo {        
+        font-size: 300%;        
+    }
+
+    #menu {
+        font-size: 131.25%;        
+    }        
+
+    .heroimage {
         height: 860px;
         width: 100%;
         background: url("../images/hin\ hero\ image.jpg") no-repeat;
@@ -332,7 +355,7 @@ footer {
         background-position-y: 5%;
     }
 
-    #about-text {
+    .about-text {
         width: 100%;
         height: 300px;
         background-color: rgba(0, 0, 0, 0.5);
@@ -340,34 +363,34 @@ footer {
         position: absolute;
     }
 
-    #skills-bg {
+    .skills-bg {
         background-color: #ffe6ff;
         margin-left: 20px;
         padding-bottom: 20px;
         overflow: hidden;
     }
 
-    #skills-bg > div {
-        width: 45%;
+    .skills-bg > div {
+        width: 44%;
         height: 200px;
         float:left;
         text-align: center;
         padding-top: 90px;
-        margin: 15px;
+        margin-left: 2.9%;
         border-radius: 10px;
     }
 
-    #gallery-bg {
+    .gallery-bg {
         background-color: #330033;
         width: 100%;
-        height: 950px;
+        height: 1150px;
         margin: 0 0 10px 0;
         padding: 7px 0 0 27px;
     }
 
-    #gallery-bg div {
-        height: 200px;
-        width: 44%;
+    .gallery-bg > div {
+        height: 250px;
+        width: 45%;
         float: left;
         background-color: grey;
         text-align: center;
@@ -380,9 +403,14 @@ footer {
         display: none;
     }
 
+    .flex-container > div {
+        height: 150px;
+        width: 44%;
+    }
+
     #map-bg {
         background-color: #ffe6ff;
-        height: 450px;
+        height: 425px;
     }
 
     #map-bg div {
@@ -396,15 +424,23 @@ footer {
 }
 
 @media (max-width:768px) {
+
+    #logo {        
+        font-size: 250%;
+    }
+
+    #menu {
+        font-size: 98.4375%;        
+    }
   
-    #skills-bg {
+    .skills-bg {
         background-color: #ffe6ff;
         margin-left: 17px;
         padding-bottom: 20px;
         overflow: hidden;
     }
 
-    #skills-bg>div {
+    .skills-bg > div {
         width: 45%;
         height: 200px;
         float: left;
@@ -414,7 +450,7 @@ footer {
         border-radius: 10px;
     }
 
-    #gallery-bg {
+    .gallery-bg {
         background-color: #330033;
         width: 100%;
         height: 950px;
@@ -422,7 +458,7 @@ footer {
         padding: 7px 0 0 27px;
     }
 
-    #gallery-bg div {
+    .gallery-bg div {
         height: 200px;
         width: 44%;
         float: left;
@@ -431,21 +467,32 @@ footer {
         padding-top: 90px;
         margin: 17px;
         border-radius: 10px;
-    }
-
-    .mobile-style {
-        padding: 0 15px;
-    }
+    }   
 
     .disappear {
         display: none;
     }    
 }
 
-@media (max-width:600px) {
+@media (max-width:540px) {
 
-    #heroimage {
-        height: 860px;
+    header {
+            height: 180px;
+        }
+
+    #logo {
+            font-size: 250%;
+            margin-left: 20%;
+            margin-top: 5%;
+    }
+
+    #menu {
+        font-size: 98.4375%
+        float    
+    }
+
+    .heroimage {
+        height: 660px;
         width: 100%;
         background: url("../images/hin\ hero\ image.jpg") no-repeat;
         background-size: cover;
@@ -453,22 +500,75 @@ footer {
         background-position-x: 50%;
     }
 
-    #about-text {
+        .about-text {
+            width: 100%;
+            height: 442px;
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 325px;
+            position: absolute;
+        }
+
+        .skills-bg {
+            background-color: #ffe6ff;
+            margin-left: 10px;
+            overflow: hidden;
+            padding-bottom: 10px;
+        }
+
+        .skills-bg div {
+            width: 90%;
+            height: 200px;
+            float: left;
+            background-color: grey;
+            text-align: center;
+            padding-top: 90px;
+            margin: 4%;
+            border-radius: 10px;
+        }
+}
+
+@media (max-width:450px) {
+
+    header {
+        height: 180px;
+    }
+
+    #logo {
+        font-size: 300%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #menu {
+        font-size: 92.828125%;
+        float: left;
+    }
+
+    .heroimage {
+        height: 690px;
         width: 100%;
-        height: 440px;
+        background: url("../images/hin\ hero\ image.jpg") no-repeat;
+        background-size: cover;
+        background-position-y: 5%;
+        background-position-x: 50%;
+    }
+
+    .about-text {
+        width: 100%;
+        height: 442px;
         background-color: rgba(0, 0, 0, 0.5);
-        top: 525px;
+        top: 425px;
         position: absolute;
     }
 
-    #skills-bg {
+    .skills-bg {
         background-color: #ffe6ff;
         margin-left: 10px;
         overflow: hidden;
         padding-bottom: 10px;
     }
 
-    #skills-bg div {
+    .skills-bg div {
         width: 90%;
         height: 200px;
         float: left;
@@ -496,16 +596,13 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-
-    .mobile-style {
-        font-size: 15px;
-        margin-bottom: 75px;
-        margin-left: 15px;
-    }
-
-        .mobile-style p {
+    } 
+    
+        .flex-container>div {
+            height: 150px;
             width: 90%;
+            margin-bottom: 15%;
+            margin-left: 5%;
         }
 
     #gallery-bg {
@@ -527,4 +624,7 @@ footer {
         margin: 17px;
         border-radius: 10px;
     }
+
+    .footer-info li {
+        margin-right: 4%;
 }
