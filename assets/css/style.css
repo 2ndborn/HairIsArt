@@ -272,7 +272,7 @@ header {
     height: 420px;
     width: 80%;
     background-color: gray;
-    margin-left: 130px;
+    margin-left: 10%;
     margin-top: 10px;
     border: #330033 5px solid;
 }
@@ -375,6 +375,16 @@ footer {
     padding-top: 8%;
 }
 /* --------------------------------------------------Media Queries */
+@media (max-width:1280px) {
+
+    .contact-details {
+        margin-left: 5%;
+    }
+
+    .contact-form {
+        margin-right: 10%;
+    }
+
 @media (max-width:1024px) {    
 
     #logo {        
@@ -448,17 +458,30 @@ footer {
 
     #map-bg {
         background-color: #ffe6ff;
-        height: 425px;
+        height: 500px;
     }
 
     #map-bg div {
         height: 420px;
         width: 80%;
         background-color: gray;
-        margin-left: 130px;
+        margin-left: 10%;
         margin-top: 10px;
         border: #330033 5px solid;
-    }    
+    }
+
+    .contact-container {
+        height: 650px;
+    }
+
+    .contact-details, .contact-form {
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .contact-form {
+        margin-right: 10%;
+    }
 }
 
 @media (max-width:768px) {
@@ -509,7 +532,8 @@ footer {
 
     .disappear {
         display: none;
-    }    
+    }  
+    
 }
 
 @media (max-width:540px) {
@@ -589,6 +613,30 @@ footer {
 
     .gallery-bg > div {
         width: 90%;
+    }
+
+    #map-bg div {        
+        margin-top: 15px;        
+    }
+
+    .contact-container {
+        height: 775px;
+    }
+
+    .consult-heading {
+        padding-top: 30px;
+    }
+
+    .contact-details {
+        text-align: center;
+        clear: both;
+        margin-left: 20%;
+    }
+
+    .contact-form {
+        clear: both;
+        width: 80%;
+        padding-left: 5%;
     }
 }
 
@@ -684,6 +732,24 @@ footer {
         border-radius: 10px;
     }
 
+    .contact-container {
+        height: 700px;
+    }
+
+    .contact-details {
+        text-align: center;        
+        clear: both;
+        margin-left: 12%;
+    }
+
+    .contact-form {
+        width: 85%;
+        clear: both;
+        margin-top: 10px;
+        padding-left: 5%;
+        
+    }
+
     .footer-info li {
         margin-right: 4%;
     }
@@ -712,6 +778,19 @@ footer {
         margin-bottom: 25%;
     }
 
+    #map-bg div {
+        height: 420px;
+        width: 80%;
+        background-color: gray;
+        margin-left: 10%;
+        margin-top: 10px;
+        border: #330033 5px solid;
+    }
+
+    #map-bg div {
+        margin-top: 15px;
+    }
+
     .footer-info li {
         margin-right: 3%;
     }
@@ -720,9 +799,9 @@ footer {
 @media (max-width:375px) {
 
     .footer-info li {
-            margin-right: 3%;
-            font-size: small;
-        }
+        margin-right: 3%;
+        font-size: small;
+    }
 }
 
 @media (max-width:360px) {
@@ -804,6 +883,16 @@ footer {
 
         .flex-container > div {
             margin-bottom: 55%;
+        }
+
+        .consult-heading {
+            font-size: large;
+        }
+
+        .contact-details {          
+            margin-left: 0;
+            padding-right: 15%;
+            font-size: 90%;
         }
     
     }
