@@ -133,16 +133,25 @@ header {
 .cutting {
     background-image: url('../images/cutting.jpg');
     background-size: 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .colour {
     background-image: url('../images/colour.jpg');
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .styling {
     background-image: url('../images/styling.jpg');
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .tvfilm {
@@ -150,18 +159,27 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #ffe6ff;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .events {
     background-image: url('../images/events.jpg');
     background-size: 100%;
     background-position-y: 10%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .education {
     background-image: url('../images/education.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /* --------------------------------------------------Testimonials */
@@ -226,41 +244,65 @@ header {
     background-image: url("../images/pink.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .orange {
     background-image: url("../images/orange.jpg");
     background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .pinkpurple {
     background-image: url("../images/pinkpurple.jpg");
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .blonde {
     background-image: url("../images/blonde.jpg");
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .purple {
     background-image: url("../images/purple.jpg");
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .pop-pink {
     background-image: url("../images/poppink.jpg");
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .red {
     background-image: url("../images/red.jpg");
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .blue {
     background-image: url("../images/blues.jpg");
     background-size: 100% 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 /* --------------------------------------------------Contact */
 
