@@ -251,3 +251,4 @@ I used Git hub to host my repository.
 
 Githup pages
 I used Github pages to deploy my website to a live website.
+https://2ndborn.github.io/HairIsArt/index.html 
