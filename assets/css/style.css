@@ -102,6 +102,7 @@ header {
 .learn-more-button-one:hover {
     background-color: black;
     color: #ffe6ff;
+    border: 1px solid #ffe6ff;
 }
 
 
@@ -182,6 +183,10 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.skills-bg div:hover {
+    border: 3px solid #330033;
+}
+
 /* --------------------------------------------------Testimonials */
 .bg-colour-testimonials {
     background-color: white;
@@ -238,6 +243,11 @@ header {
     padding-top: 90px;
     margin: 15px;
     border-radius: 10px;
+}
+
+.gallery-bg div:hover {
+    transform: scale(1.2);
+    border: 2px solid #ffe6ff;
 }
 
 .pink {
@@ -366,6 +376,9 @@ iframe {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 30px;
+    color:#330033;
+    background-color: #b179b1;
+    border: 3px solid #ffe6ff;
 }
 
 .contact-text {
