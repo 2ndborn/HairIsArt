@@ -71,7 +71,18 @@
         </ul>
     </footer>
     <script>
-        
+        let modal = document.getElementById("myModal");
+
+        let img = document.getElementsByClassName("pink");
+        let modalImg = document.getElementById("pink01");
+        img.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        let span = document.getElementsByClassName("close")[0];
+        span.onlick = function() {
+            modal.style.display = "none";
+        }
     </script>
 </body>
 
