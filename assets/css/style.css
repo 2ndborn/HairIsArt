@@ -653,7 +653,7 @@ footer {
         width: 100%;    
         height: 260px;        ;    
         max-width: 328px;
-        }
+    }
 
     .row> .column {
         width: 350px;
@@ -801,7 +801,18 @@ footer {
     .gallery-bg {
         width: 739px;
         padding-left: 31px;
-    } 
+    }
+
+    .row> .column {
+        width: 1000px;
+        height: 459px;
+    }
+
+    .column img {
+        height: 441px;
+        max-width: 800px;
+        margin-left: 101px;
+    }
 
     #map-bg div {        
         margin-top: 15px;        
