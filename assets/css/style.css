@@ -234,8 +234,8 @@ header {
     overflow: hidden;
 }
 
-/*
-.gallery-bg div {
+
+.row > div {
     height: 200px;
     width: 21.99999%;
     float: left;
@@ -246,6 +246,7 @@ header {
     border-radius: 10px;
 }
 
+/*
 .gallery-bg div:hover {
     transform: scale(1.2);
     border: 2px solid #ffe6ff;
@@ -316,7 +317,7 @@ header {
     -webkit-transition: all .8s ease-in-out;
 }*/
 
-.row>.column {
+.row >.column {
     padding: 5px 1px;
 }
 
