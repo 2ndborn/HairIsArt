@@ -801,11 +801,6 @@ footer {
         margin-left: 5%;
     }
 
-    .gallery-head {
-        margin-left: 89px;
-        padding-right: 1px;
-    }
-
     .gallery-bg {
         width: 739px;
         padding-left: 31px;
@@ -818,8 +813,7 @@ footer {
 
     .column img {
         height: 441px;
-        max-width: 800px;
-        margin-left: -7px;
+        max-width: 390px;
     }
 
     #map-bg div {        
@@ -962,10 +956,6 @@ footer {
         margin-left: 11%;
         margin-top: 7%;
         font-size: 45px;
-    }
-
-    .gallery-head #logo {
-
     }
 
     .footer-info h5 {
