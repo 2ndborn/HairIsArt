@@ -946,9 +946,20 @@ footer {
 
 @media (max-width:390px) {
 
-    #logo {        
-        margin-left: -1%;
+    #menu {
+        font-size: 68.828125%;
+        padding-left: 3.5%;
+        margin-left: 51px;
+    }
+
+    #menu li {
+        margin-right: 12px;
+    }
+
+    #logo {
+        margin-left: 11%;
         margin-top: 7%;
+        font-size: 45px;
     }
 
     .about-text {
