@@ -628,25 +628,6 @@ footer {
         margin-left: 2.9%;
         border-radius: 10px;
     }
-    /*
-    .gallery-bg {
-        background-color: #330033;
-        width: 100%;
-        height: 1150px;
-        margin: 0 0 10px 0;
-        padding: 7px 0 0 27px;
-    }
-
-    .gallery-bg > div {
-        height: 250px;
-        width: 45%;
-        float: left;
-        background-color: grey;
-        text-align: center;
-        padding-top: 90px;
-        margin: 17px;
-        border-radius: 10px;
-    } */
 
     .disappear {
         display: none;
@@ -733,22 +714,7 @@ footer {
     }
 
     .gallery-bg {
-        background-color: #330033;
-        width: 100%;
-        height: 950px;
-        margin: 0 0 10px 0;
-        padding: 7px 0 0 27px;
-    }
-
-    .gallery-bg div {
-        height: 200px;
-        width: 44%;
-        float: left;
-        background-color: grey;
-        text-align: center;
-        padding-top: 90px;
-        margin: 17px;
-        border-radius: 10px;
+        
     }   
 
     .disappear {
