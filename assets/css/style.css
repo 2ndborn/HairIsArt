@@ -799,6 +799,10 @@ footer {
         margin-left: 5%;
     }
 
+    .gallery-head {
+        margin-left: 100px;
+    }
+
     .gallery-bg {
         width: 739px;
         padding-left: 31px;
