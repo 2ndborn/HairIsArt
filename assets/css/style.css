@@ -811,7 +811,7 @@ footer {
     .column img {
         height: 441px;
         max-width: 800px;
-        margin-left: 101px;
+        margin-left: -7px;
     }
 
     #map-bg div {        
