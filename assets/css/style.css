@@ -654,6 +654,11 @@ footer {
         padding-left: 195px;
     }
 
+    .row> .column {
+        width: 350px;
+        height: 272px;
+    }
+
     #map-bg {
         background-color: #ffe6ff;
         height: 500px;
