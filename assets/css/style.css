@@ -566,6 +566,10 @@ footer {
 /* --------------------------------------------------Media Queries */
 @media (max-width:1280px) {
 
+    .row> .column {
+        width: 221px;
+    }
+
     .contact-details {
         margin-left: 5%;
     }
@@ -643,6 +647,11 @@ footer {
     .flex-container > div {
         height: 150px;
         width: 44%;
+    }
+
+    section {
+        padding-top: 50px;
+        padding-left: 195px;
     }
 
     #map-bg {
