@@ -499,8 +499,8 @@ iframe {
 }
 
 .contact-details {
-    list-style-type: none;
-    margin-left: 50%;     
+    clear: both;
+    list-style-type: none;   
 }
 
 .contact-form {
