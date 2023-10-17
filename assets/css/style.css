@@ -316,7 +316,7 @@ header {
 }*/
 
 .row> .column {
-    margin: 0 1px;
+    margin: 1px 1px;
 }
 
 .row:after {
