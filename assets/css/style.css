@@ -978,6 +978,11 @@ footer {
         margin-left: 32px;
     }
 
+    .footer-info {
+        margin-left: 0;
+        margin-right: 45px;
+    }
+
     .footer-info h5 {
         display: none;
     }
