@@ -315,7 +315,8 @@ header {
     -webkit-transition: all .8s ease-in-out;
 }*/
 section {
-    margin-left: 75px;
+    padding-left: 60px;
+    background-color: #330033;
 }
 
 .row> .column {
