@@ -323,7 +323,7 @@ header {
 }*/
 .gallery-bg {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-left: 60px;
     background-color: #330033;
 }
