@@ -742,6 +742,10 @@ footer {
         width: 527px;
     }
 
+    .footer-info {
+        margin-left: 149px;
+    }
+
     .heroimage {
         height: 660px;
         width: 100%;
