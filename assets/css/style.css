@@ -544,7 +544,7 @@ button[type="submit"] {
     border-radius: 10px;
 }
 
-.confirm-btn-one {
+.confirm-btn:hover {
     background-color: #ffe6ff;
     color: black;    
     border-radius: 10px;
