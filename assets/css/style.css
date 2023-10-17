@@ -958,6 +958,20 @@ footer {
         font-size: 45px;
     }
 
+    .row {
+        width: 390px;
+    }
+
+    .row> .column {
+        width: 390px;
+    }
+
+    gallery-bg {
+        width: 390px;
+        padding-left: 0px;
+        margin-left: 32px;
+    }
+
     .footer-info h5 {
         display: none;
     }
