@@ -500,7 +500,7 @@ iframe {
 
 .contact-details {
     list-style-type: none;
-    float: left;   
+    clear: both;  
 }
 
 .contact-form {
