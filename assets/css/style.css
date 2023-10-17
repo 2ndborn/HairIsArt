@@ -794,8 +794,9 @@ footer {
     }
 
     .gallery-bg {
-        
-    }
+        width: 739px;
+        padding-left: 31px;
+    } 
 
     #map-bg div {        
         margin-top: 15px;        
