@@ -224,7 +224,7 @@ header {
 }
 
 /* --------------------------------------------------Gallery */
-/*
+
 .gallery-bg {
     background-color: #330033;
     width: 100%;
@@ -234,6 +234,7 @@ header {
     overflow: hidden;
 }
 
+/*
 .gallery-bg div {
     height: 200px;
     width: 21.99999%;
