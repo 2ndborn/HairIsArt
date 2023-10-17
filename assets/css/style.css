@@ -224,7 +224,7 @@ header {
 }
 
 /* --------------------------------------------------Gallery */
-
+/*
 .gallery-bg {
     background-color: #330033;
     width: 100%;
@@ -234,7 +234,6 @@ header {
     overflow: hidden;
 }
 
-/*
 .gallery-bg img {
     height: 200px;
     width: 21.99999%;
@@ -245,7 +244,6 @@ header {
     margin: 15px;
     border-radius: 10px;
 }
-
 
 .gallery-bg div:hover {
     transform: scale(1.2);
@@ -317,7 +315,7 @@ header {
     -webkit-transition: all .8s ease-in-out;
 }*/
 
-.row >.column {
+.row> .column {
     padding: 5px 1px;
     height: 200px;
     width: 21.99999%;
