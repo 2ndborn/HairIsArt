@@ -731,6 +731,11 @@ footer {
     #menu {
         font-size: 98.4375%;        
     }
+
+    .about-text {
+        height: 368px;
+        top: 486px;
+    }
   
     .skills-bg {
         background-color: #ffe6ff;
