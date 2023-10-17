@@ -628,7 +628,7 @@ footer {
         margin-left: 2.9%;
         border-radius: 10px;
     }
-
+    /*
     .gallery-bg {
         background-color: #330033;
         width: 100%;
@@ -646,7 +646,7 @@ footer {
         padding-top: 90px;
         margin: 17px;
         border-radius: 10px;
-    }
+    } */
 
     .disappear {
         display: none;
@@ -658,7 +658,7 @@ footer {
     }
 
     .row {
-        width: 871px;
+        width: 705px;
     }
 
     .column img {    
@@ -672,9 +672,9 @@ footer {
         height: 272px;
     }
 
-    section {
+    .gallery-bg {
         padding-top: 16px;
-        padding-left: 165px;
+        padding-left: 30px;
     }
 
     #map-bg {
