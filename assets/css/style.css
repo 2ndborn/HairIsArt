@@ -29,6 +29,13 @@ header {
     letter-spacing: 2px;     
 }
 
+#menu-gallery {
+    font-size: 175%; 
+    font-weight: 500;       
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
 #logo, #menu {
     line-height: 75px;
 }
@@ -44,31 +51,6 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #330033;
-}
-
-#menu-gallery {
-    font-size: 175%; 
-    font-weight: 500;       
-    list-style-type: none;
-    letter-spacing: 2px;
-}
-
-#logo, #menu-gallery {
-    line-height: 75px;
-}
-
-#menu-gallery li {
-    float: right;
-    margin-right: 25px;    
-}
-
-#menu-gallery a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu-gallery a:hover {
     border-bottom: 1px solid #330033;
 }
 
@@ -619,11 +601,7 @@ footer {
 
     #menu {
         font-size: 131.25%;        
-    } 
-    
-    #menu-gallery {
-        font-size: 131.25%;
-    }
+    }        
 
     .heroimage {
         height: 860px;
@@ -762,13 +740,6 @@ footer {
             font-size: 250%;
             margin-left: 42%;
             margin-top: 5%;
-    }
-
-    #menu-gallery {
-        font-size: 98.4375%;
-        float: left;
-        margin-left: 11%;
-        width: 527px;
     }
 
     .footer-info {
