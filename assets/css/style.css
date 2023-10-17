@@ -29,6 +29,13 @@ header {
     letter-spacing: 2px;     
 }
 
+#menu-gallery {
+    font-size: 175%; 
+    font-weight: 500;       
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
 #logo, #menu {
     line-height: 75px;
 }
@@ -735,7 +742,7 @@ footer {
             margin-top: 5%;
     }
 
-    #menu {
+    #menu-gallery {
         font-size: 98.4375%;
         float: left;
         margin-left: 11%;
