@@ -29,13 +29,6 @@ header {
     letter-spacing: 2px;     
 }
 
-#menu-gallery {
-    font-size: 175%; 
-    font-weight: 500;       
-    list-style-type: none;
-    letter-spacing: 2px;
-}
-
 #logo, #menu {
     line-height: 75px;
 }
@@ -51,6 +44,31 @@ header {
 }
 
 #menu a:hover {
+    border-bottom: 1px solid #330033;
+}
+
+#menu-gallery {
+    font-size: 175%; 
+    font-weight: 500;       
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#logo, #menu-gallery {
+    line-height: 75px;
+}
+
+#menu-gallery li {
+    float: right;
+    margin-right: 25px;    
+}
+
+#menu-gallery a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu-gallery a:hover {
     border-bottom: 1px solid #330033;
 }
 
