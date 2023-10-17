@@ -323,6 +323,7 @@ section {
     width: 100%;
     height: 200px;
     max-width: 250px;
+    border-radius: 10px;
 }
 
 .row> .column {
@@ -653,14 +654,20 @@ footer {
         width: 44%;
     }
 
-    section {
-        padding-top: 50px;
-        padding-left: 195px;
-    }
+    .column img {    
+        width: 100%;    
+        height: 260px;        ;    
+        max-width: 328px;
+        }
 
     .row> .column {
         width: 350px;
         height: 272px;
+    }
+
+    section {
+        padding-top: 16px;
+        padding-left: 165px;
     }
 
     #map-bg {
