@@ -734,11 +734,12 @@ footer {
 
     header {
             height: 180px;
+            padding-right: 59px;
         }
 
     #logo {
             font-size: 250%;
-            margin-left: 42%;
+            margin-left: 24%;
             margin-top: 5%;
     }
 
