@@ -322,6 +322,8 @@ header {
     -webkit-transition: all .8s ease-in-out;
 }*/
 .gallery-bg {
+    display: flex;
+    flex-wrap: nowrap;
     padding-left: 60px;
     background-color: #330033;
 }
