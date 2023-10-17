@@ -314,9 +314,13 @@ header {
     -moz-transition: all .8s ease-in-out;
     -webkit-transition: all .8s ease-in-out;
 }*/
+section {
+    margin-left: 75px;
+}
 
 .row> .column {
-    margin: 1px 1px;
+    margin: 5px 1px;
+    height: 215px;
 }
 
 .row:after {
