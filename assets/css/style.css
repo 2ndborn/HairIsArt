@@ -566,9 +566,7 @@ footer {
 /* --------------------------------------------------Media Queries */
 @media (max-width:1280px) {
 
-    .row> .column {
-        width: 221px;
-    }
+   
 
     .contact-details {
         margin-left: 5%;
