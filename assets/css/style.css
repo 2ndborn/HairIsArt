@@ -532,7 +532,6 @@ button[type="submit"] {
 }
 
 .confirm-btn {
-    border: none;
     color: white;
     padding: 10px 32px;
     text-align: center;
