@@ -235,7 +235,7 @@ header {
 }
 
 
-.row > div {
+..gallery-bg img {
     height: 200px;
     width: 21.99999%;
     float: left;
