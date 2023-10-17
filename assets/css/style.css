@@ -583,7 +583,10 @@ footer {
         margin-right: 10%;
     }
 
-@media (max-width:1024px) {    
+@media (max-width:1024px) {   
+    header {
+        padding-right: 20px;
+    } 
 
     #logo {        
         font-size: 300%;        
