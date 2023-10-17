@@ -314,7 +314,7 @@ header {
     -moz-transition: all .8s ease-in-out;
     -webkit-transition: all .8s ease-in-out;
 }*/
-section {
+.gallery-bg {
     padding-left: 60px;
     background-color: #330033;
 }
@@ -895,7 +895,7 @@ footer {
     }
 
     .gallery-bg {
-        
+
     }
 
     .contact-container {
