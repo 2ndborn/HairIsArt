@@ -654,6 +654,10 @@ footer {
         width: 44%;
     }
 
+    .row {
+        width: 871px;
+    }
+
     .column img {    
         width: 100%;    
         height: 260px;        ;    
