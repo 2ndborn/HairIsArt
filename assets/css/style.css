@@ -499,7 +499,8 @@ iframe {
 }
 
 .contact-details {
-    list-style-type: none;    
+    list-style-type: none;
+    float: left;    
     margin-left: 0;  
 }
 
