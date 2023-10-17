@@ -316,9 +316,7 @@ header {
 }*/
 
 .row> .column {
-    padding: 5px 1px;
-    height: 200px;
-    width: 21.99999%;
+    margin: 0 1px;
 }
 
 .row:after {
