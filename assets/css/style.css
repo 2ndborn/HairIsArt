@@ -501,7 +501,7 @@ iframe {
 .contact-details {
     list-style-type: none;
     float: left;    
-    margin-left: 0;  
+    margin-right: 10px;  
 }
 
 .contact-form {
