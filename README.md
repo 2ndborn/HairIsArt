@@ -165,7 +165,7 @@ White will be used on the Testimonial section of the Home page.
 
 - Bootstrap - creating the form and buttons.
 
--	www.w3schools.com - lightbox slide show
+- w3schools[lightbox slideshow](https://www.w3schools.com/howto/howto_js_lightbox.asp)
 
 ## Testing
 
