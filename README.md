@@ -1,4 +1,5 @@
 Project Goals
+![alt text](assets/images/hin%20hero%20image.jpg)
 
 The goal of the Hair is Art website is to showcase the talents and abilities of Kara Francis to attract the attention of prospective employers who are in need of her services.
 
