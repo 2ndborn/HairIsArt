@@ -126,7 +126,7 @@ How to video tutorials and major events will be added to the website to add to t
 
 Users will be able to view and increased number of gallery pictures.
 
-Hoevering over any tiles will reveal a boarder that will prompt the user to click for more information or expansion.
+Hovering over any tiles will reveal a boarder that will prompt the user to click for more information or expansion.
 
 Clicking on the services tile will expand the picture, displaying some text about the service and have a contact button, that is a link to the contact page.
 
