@@ -50,7 +50,7 @@ Footer
 
 Each page will have a “Download CV” icon in the footer.
 
-Each page will have an Instagram icon that when clicked takes the user to the owners Instagram page.
+Each page will have an Instagram icon that when clicked takes the user to an Instagram page.
 
 Home Page
 
@@ -131,6 +131,8 @@ Hovering over any tiles will reveal a boarder that will prompt the user to click
 Clicking on the services tile will expand the picture, displaying some text about the service and have a contact button, that is a link to the contact page.
 
 Clicking on a gallery tile will expand the picture, show user can view pics in more detail.
+
+Clicking on the Instagram icon will link the user to the owners Instagram page.
 
 Typography and Colour
 
