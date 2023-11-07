@@ -607,9 +607,7 @@ footer {
     padding-top: 8%;
 }
 /* --------------------------------------------------Media Queries */
-@media (max-width:1280px) {
-
-   
+@media (max-width:1280px) {   
 
     .contact-details {
         margin-left: 5%;
@@ -619,7 +617,8 @@ footer {
         margin-right: 10%;
     }
 
-@media (max-width:1024px) {   
+@media (max-width:1024px) { 
+
     header {
         padding-right: 20px;
     } 
@@ -723,17 +722,18 @@ footer {
 }
 
 @media (max-width:912px) {
+
     .gallery-bg {
         padding-top: 1%;
         padding-left: 14%;
     }
 
-    .consult-heading {
-        padding-top: 3%;
-    }
-
     .contact-container {
         height: 645px;
+    }
+
+    .consult-heading {
+        padding-top: 3%;
     }
 }
 
