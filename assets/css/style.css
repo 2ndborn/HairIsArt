@@ -722,6 +722,21 @@ footer {
     }
 }
 
+@media (max-width:912px) {
+    .gallery-bg {
+        padding-top: 1%;
+        padding-left: 14%;
+    }
+
+    .consult-heading {
+        padding-top: 3%;
+    }
+
+    .contact-container {
+        height: 648px;
+    }
+}
+
 @media (max-width:768px) {
 
     #logo {        
