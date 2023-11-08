@@ -900,18 +900,6 @@ footer {
     .row {
         width: 521px;
     }
-
-    .footer-info {
-        padding-right: 43px;
-    }
-
-    .footer-info h5 {
-        display: none;
-    }
-
-    .footer-info li {
-        padding: 0 19px;
-    }
 }
     
 @media (max-width: 414px) {
@@ -950,6 +938,18 @@ footer {
     .row> .column {
         width: 504px;
         height: 423px;
+    }
+
+    .footer-info {
+        padding-right: 43px;
+    }
+
+    .footer-info h5 {
+        display: none;
+    }
+
+    .footer-info li {
+        padding: 0 19px;
     }
 }
 
