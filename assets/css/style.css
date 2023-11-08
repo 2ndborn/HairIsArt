@@ -938,6 +938,10 @@ footer {
     .footer-info li {
         padding: 0 19px;
     }
+
+    .g-head {
+        width: 414px;
+    }
 }
 
 @media (max-width:390px) {
