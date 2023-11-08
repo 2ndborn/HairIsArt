@@ -990,9 +990,7 @@ footer {
     }
 
     .bg-colour-testimonials {
-        background-color: white;
         height: 537px;
-        overflow: hidden;
     }
 }
 
@@ -1003,11 +1001,21 @@ footer {
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:360px) {
 
-    .footer-info li {
-        margin-right: 3%;
-        font-size: small;
+    #logo {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .about-text {
+        height: 399px;
+        top: 412px;
+    }
+
+    .about-text > p {
+        margin: 10px 15px;
+        font-size: 15px;
     }
 }
 
