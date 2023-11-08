@@ -901,6 +901,38 @@ footer {
         width: 521px;
     }
 }
+
+@media (max-width: 430px) {
+    .heroimage {
+        background-position-x: 49%;
+    }
+
+    .about-text {
+        height: 391px;
+        top: 560px;
+    }
+
+    .skills-bg > div {
+        width: 90%;
+    }
+
+    .bg-colour-testimonials {
+        height: 521px;
+    }
+
+    .footer-info {
+        padding-right: 43px;
+        padding-left: 0;
+    }
+
+    .footer-info h5 {
+        display: none;
+    }
+
+    .footer-info li {
+        padding: 0 19px;
+    }
+}
     
 @media (max-width: 414px) {
     .topnav, #logo {
