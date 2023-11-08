@@ -942,6 +942,11 @@ footer {
     .g-head {
         width: 530px;
     }
+
+    .footer-info {
+        padding-right: 0;
+        padding-left: 23%;
+    }
 }
 
 @media (max-width:390px) {
