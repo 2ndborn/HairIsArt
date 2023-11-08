@@ -884,6 +884,7 @@ footer {
     .gallery-bg {
         width: 739px;
         padding-left: 31px;
+        padding-top: 4%;
     }
 
     .row> .column {
@@ -893,7 +894,7 @@ footer {
 
     .column img {
         height: 441px;
-        max-width: 390px;
+        max-width: 480px;
     }
 }
     
