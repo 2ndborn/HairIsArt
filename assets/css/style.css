@@ -903,6 +903,10 @@ footer {
 }
 
 @media (max-width: 430px) {
+    .topnav, #logo {
+        font-size: 190%;
+    }
+
     .heroimage {
         background-position-x: 49%;
     }
