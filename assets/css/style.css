@@ -927,6 +927,10 @@ footer {
         overflow: hidden;
     }
 
+    .g-head {
+        width: 539px;
+    }
+
     .row {
         width: 100%;
     }
