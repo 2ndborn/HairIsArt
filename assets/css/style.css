@@ -903,7 +903,41 @@ footer {
 }
     
 @media (max-width: 414px) {
-    
+    .topnav, #logo {
+        font-size: 169%;
+        padding-left: 5px;
+    }
+
+    .heroimage {
+        background-position-x: 55%;
+    }
+
+    .about-text {
+        height: 416px;
+        top: 534px;
+    }
+
+    .skills-bg > div {
+        width: 88%;
+    }
+
+    .bg-colour-testimonials {
+        background-color: white;
+        height: 537px;
+        overflow: hidden;
+    }
+
+    .footer-info {
+        padding-right: 43px;
+    }
+
+    .footer-info h5 {
+        display: none;
+    }
+
+    .footer-info li {
+        padding: 0 19px;
+    }
 }
 
 @media (max-width:390px) {
