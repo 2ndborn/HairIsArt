@@ -927,6 +927,19 @@ footer {
         overflow: hidden;
     }
 
+    .row {
+        width: 383px;
+    }
+
+    .column img {
+        height: 400px;
+    }
+
+    .row> .column {
+        width: 504px;
+        height: 423px;
+    }
+
     .footer-info {
         padding-right: 43px;
     }
@@ -937,10 +950,6 @@ footer {
 
     .footer-info li {
         padding: 0 19px;
-    }
-
-    .g-head {
-        width: 530px;
     }
 
     .footer-info {
