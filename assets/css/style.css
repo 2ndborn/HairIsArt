@@ -867,6 +867,34 @@ footer {
     .test-heading {
         padding-bottom: 14px;
     }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .flex-container > div {
+        height: 150px;
+        width: 90%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+    }
+
+    .gallery-bg {
+        width: 739px;
+        padding-left: 31px;
+    }
+
+    .row> .column {
+        width: 1000px;
+        height: 459px;
+    }
+
+    .column img {
+        height: 441px;
+        max-width: 390px;
+    }
 }
     
 
@@ -922,37 +950,11 @@ footer {
 
     .bg-colour-testimonials {
         height: 600px;
-    }
+    }*/
 
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+    
 
-    .flex-container > div {
-        height: 150px;
-        width: 90%;
-        margin-bottom: 15%;
-        margin-left: 5%;
-    }
-
-    .gallery-bg {
-        width: 739px;
-        padding-left: 31px;
-    }
-
-    .row> .column {
-        width: 1000px;
-        height: 459px;
-    }
-
-    .column img {
-        height: 441px;
-        max-width: 390px;
-    }
-
-    #map-bg div {        
+    /*#map-bg div {        
         margin-top: 15px;        
     }
 
