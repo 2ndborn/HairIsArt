@@ -966,6 +966,11 @@ footer {
     .consult-heading {
         padding-top: 5%;
     }
+
+    .contact-form {
+        float: none;
+        width: 90%;
+    }
 }
 
 @media (max-width:390px) {
@@ -1149,10 +1154,5 @@ footer {
     .contact-details {          
         margin-left: 0;
         padding-right: 15%;
-    }
-
-    .contact-form {
-        float: none;
-        width: 90%;
     }
 }
