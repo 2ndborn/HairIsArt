@@ -947,6 +947,7 @@ footer {
 
     .footer-info {
         padding-right: 43px;
+        padding-left: 0;
     }
 
     .footer-info h5 {
