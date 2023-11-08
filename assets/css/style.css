@@ -974,7 +974,10 @@ footer {
 }
 
 @media (max-width:390px) {
-    
+    .about-text {
+        height: 440px;
+        top: 511px;
+    }
 }
 
 @media (max-width:375px) {
