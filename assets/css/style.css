@@ -927,8 +927,9 @@ footer {
         overflow: hidden;
     }
 
-    .g-head {
-        width: 539px;
+    .gallery-bg {
+        width: 100%;
+        padding-left: 22px;
     }
 
     .row {
