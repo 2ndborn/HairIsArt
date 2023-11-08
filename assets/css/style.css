@@ -936,6 +936,24 @@ footer {
     .footer-info li {
         padding: 0 19px;
     }
+
+    .gallery-bg {
+        width: 100%;
+        padding-left: 22px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .column img {
+        height: 414px;
+    }
+
+    .row> .column {
+        width: 504px;
+        height: 433px;
+    }
 }
     
 @media (max-width: 414px) {
@@ -961,24 +979,6 @@ footer {
         background-color: white;
         height: 537px;
         overflow: hidden;
-    }
-
-    .gallery-bg {
-        width: 100%;
-        padding-left: 22px;
-    }
-
-    .row {
-        width: 100%;
-    }
-
-    .column img {
-        height: 414px;
-    }
-
-    .row> .column {
-        width: 504px;
-        height: 433px;
     }
 
     .footer-info {
