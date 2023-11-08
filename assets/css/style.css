@@ -843,6 +843,19 @@ footer {
         text-decoration: none;
     }
 
+.heroimage {
+    background-position-x: 40%;
+}
+
+.about-text {
+    height: 356px;
+    top: 594px;
+}
+
+.about-text > h2 {
+    margin: 23px;
+}
+
     .skills-bg > div {
         width: 43%;
     }
