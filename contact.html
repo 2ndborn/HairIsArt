@@ -34,6 +34,22 @@
                 </li>
             </ul>
         </nav>
+        <div class="topnav">
+            <a href="index.html">
+                <h1 id="logo">Hair Is Art</h1>
+            </a>
+            <div id="menu2">
+                <a class="active-page" href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="assets/cv/karacv.pdf">Download</a>
+            </div>
+            <div id="tog-button">
+                <a href="#" class="icon" onclick="hamIcon()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
     </header>
     <section id="map-bg">
         <div>
@@ -97,6 +113,16 @@
             </li>
         </ul>
     </footer>
+    <script>
+        function hamIcon() {
+            let menu = document.getElementById("menu2");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block"
+            }
+        }
+    </script>
 </body>
 
 </html>
