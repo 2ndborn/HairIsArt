@@ -954,6 +954,20 @@ footer {
         width: 504px;
         height: 433px;
     }
+
+    .contact-details {
+        text-align: center;
+        margin-top: 33px;
+    }
+
+    .consult-heading {
+        padding-top: 5%;
+    }
+
+    .contact-form {
+        float: none;
+        width: 90%;
+    }
 }
     
 @media (max-width: 414px) {
@@ -979,33 +993,6 @@ footer {
         background-color: white;
         height: 537px;
         overflow: hidden;
-    }
-
-    .footer-info {
-        padding-right: 43px;
-        padding-left: 0;
-    }
-
-    .footer-info h5 {
-        display: none;
-    }
-
-    .footer-info li {
-        padding: 0 19px;
-    }
-
-    .contact-details {
-        text-align: center;
-        margin-top: 33px;
-    }
-
-    .consult-heading {
-        padding-top: 5%;
-    }
-
-    .contact-form {
-        float: none;
-        width: 90%;
     }
 }
 
