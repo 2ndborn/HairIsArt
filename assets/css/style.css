@@ -842,6 +842,10 @@ footer {
         font-weight: 600;
         text-decoration: none;
     }
+
+    .skills-bg > div {
+        width: 43%;
+    }
 }
     
 
