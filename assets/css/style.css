@@ -58,6 +58,39 @@ header {
     border-bottom: 1px solid #330033;
 }
 
+#menu2 {
+    margin-top: 39px;
+    text-align: center;
+    background-color: #ffe6ff;
+}
+
+.topnav {
+    display: none;
+}
+
+.topnav #menu2 {
+    display: none;
+}
+
+.topnav a {
+    text-align: right;
+    color: #330033;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.topnav a.icon {
+    background-color: #ffe6ff;
+    display: block;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 30px;
+    right: 1px;
+    top: 1px;
+}
+
 .heroimage {    
     height: 950px;
     width: 100%;
@@ -786,9 +819,27 @@ footer {
     
 }
 
-@media (max-width:540px) {
+@media (max-width: 540px)  {
+    nav {
+        display: none;
+    }
 
-    header {
+    .topnav {
+        display: contents;
+    }
+
+    .topnav, #logo {
+        font-size: 260%;
+        padding-left: 10px;
+    }
+
+    .active-page {
+        font-weight: 600;
+    }
+}
+    
+
+    /*header {
             height: 180px;
             padding-right: 59px;
         }
@@ -893,7 +944,7 @@ footer {
         width: 80%;
         padding-left: 5%;
     }
-}
+}*/
 
 @media (max-width:414px) {
 
