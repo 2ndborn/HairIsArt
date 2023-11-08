@@ -928,16 +928,16 @@ footer {
     }
 
     .row {
-        width: 383px;
+        width: 100%;
     }
 
     .column img {
-        height: 400px;
+        height: 450px;
     }
 
     .row> .column {
         width: 504px;
-        height: 423px;
+        height: 473px;
     }
 
     .footer-info {
