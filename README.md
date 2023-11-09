@@ -173,7 +173,7 @@ White will be used on the Testimonial section of the Home page.
 - ### Code validation
 
 	-	**CSS**
-	![CSS Validation](assets/pdf-files/css.val.png
+	![CSS Validation](assets/pdf-files/css.val.png)
 
 	- **HTML**
 
