@@ -149,7 +149,9 @@ White will be used on the Testimonial section of the Home page.
 ## Wireframes
 
 ![wireframes Home](assets/pdf-files/home-page.png)
+
 ![wireframes Gallery](assets/pdf-files/gallery-page.png)
+
 ![wireframes Contact](assets/pdf-files/contact-page.png)
 
 ## Technology
@@ -173,25 +175,28 @@ White will be used on the Testimonial section of the Home page.
 - ### Code validation
 
 	-	**CSS**
+
 	![CSS Validation](assets/pdf-files/css.val.png)
 
 	- **HTML**
 
-		 -	Home Page - The validator spotted an error with the “learn-more” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. There were not further areas of concern.
+		-	Home Page - The validator spotted an error with the “learn-more” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. There were not further areas of concern.
 
-![index.html](assets/pdf-files/Index.html.val.png)
+		![index.html](assets/pdf-files/Index.html.val.png)
 
-		-	Gallery - The Gallery section returned only warnings and infomation. 
+		- Gallery - The Gallery section returned only warnings and infomation. 
   
-  ![gallery.html](assets/pdf-files/gallery.html.val.png)
+  		![gallery.html](assets/pdf-files/gallery.html.val.png)
 
 		- Contact
-The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. 
+		
+		The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. 
 
-![contact.html](assets/pdf-files/contact.html.val.png)
+		![contact.html](assets/pdf-files/contact.html.val.png)
 
 		-	Confirmation.html
-There were not areas of concern on this section.
+
+		There were not areas of concern on this section.
 
 		-	**Lighthouse**
 
