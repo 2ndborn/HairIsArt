@@ -1020,5 +1020,42 @@ footer {
 }
 
 @media (max-width:280px) {
+    #logo {
+        font-size: 25px;
+    }
 
+    .topnav a.icon {
+        font-size: 25px;
+        top: 13px;
+    }
+
+    topnav a {
+        padding: 7px 16px;
+    }
+
+    .heroimage {
+        height: 100vh;
+    }
+
+    .about-text {
+        height: 351px;
+        top: 392px;
+    }
+
+    .about-text > p {
+        margin: 10px 6px;
+        font-size: 12px;
+    }
+
+    .skills-bg {
+        margin-left: 4px;
+    }
+
+    .flex-container {
+        height: 450px;
+    }
+
+    .bg-colour-testimonials {
+        height: 593px;
+    }
 }
