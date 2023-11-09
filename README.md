@@ -243,24 +243,24 @@ I used Google Chrome to develop and test my website.
 I tested my website on the following screen sizes:
 
 -	1024px
-Home page 
-Gallery
-Contact
+Home page ![1024](assets/pdf-fi)
+Gallery ![1024](assets/pdf-files/gallery_hairisart_1024.png) ![1024](assets/pdf-files/gallery_hairisart_1024\).png)
+Contact ![1024](assets/pdf-files/contact_hairisart_1024.png)
 
 - 912px
-Home page
-Gallery
-Contact
+Home page 
+Gallery ![912](assets/pdf-files/gallery_hairisart_912.png) ![912](assets/pdf-files/gallery_pop_912.png)
+Contact ![912](assets/pdf-files/contact_hairisart_912.png)
 
 - 820px
 Home page
-Gallery
-Contact
+Gallery ![820](assets/pdf-files/gallery_hairisart_820.png) ![820](assets/pdf-files/gallery_pop_820.png)
+Contact ![820](assets/pdf-files/contact_hairisart_820.png)
 
 -	768px
-Home page
-Gallery
-Contact
+Home page 
+Gallery ![768](assets/pdf-files/gallery_hairisart_768.png) ![768](assets/pdf-files/gallery_pop_768.png)
+Contact ![768](assets/pdf-files/contact_hairisart_768.png)
 
 From this point on the user will need to click on the Hamburger icon in order to access the menu. All the screenshots will show the menu after it has been toggled.
 
