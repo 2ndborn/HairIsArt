@@ -650,6 +650,7 @@ footer {
     .contact-form {
         margin-right: 10%;
     }
+}
 
 @media (max-width:1024px) { 
 
@@ -1047,7 +1048,7 @@ footer {
         top: 392px;
     }
 
-    .about-text > p {
+    .about-text> p {
         margin: 10px 6px;
         font-size: 12px;
     }

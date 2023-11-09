@@ -254,12 +254,12 @@ White will be used on the Testimonial section of the Home page.
 	- **HTML**
 
 		 -	Home Page - The validator spotted an error with the “learn-more” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. There were not further areas of concern.
-![index.html](assets/pdf-files/index.html.val.pfd)
+![index.html](assets/pdf-files/Index.html.val.png)
 
-		-	Gallery - The Gallery section returned only warnings and infomation. ![gallery.html](assets/pdf-files/gallery.html.val.pdf)
+		-	Gallery - The Gallery section returned only warnings and infomation. ![gallery.html](assets/pdf-files/gallery.html.val.png)
 
 		- Contact
-The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. ![contact.html](assets/pdf-files/contact.html.val.pdf)
+The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. ![contact.html](assets/pdf-files/contact.html.val.png)
 
 		-	Confirmation.html
 There were not areas of concern on this section.
