@@ -27,7 +27,48 @@ The goal of the Hair is Art website is to showcase the talents and abilities of 
 -	I would like to be able to find to navigate key areas of interest (Home, About Me, Gallery, Contact and download pages).
 
 -	I would like to access the webite using my mobile, tablet and desktop computer.
--	![user stories](assets/pdf-files/finished.projec.pdf)
+
+**User Stories Test Case**
+
+- **Home Page**
+	
+	- When the user enters the Home page, they will she an inviting hero imagine that shoes the logo “Hair Is Art” and the navigation bar that shows the 4 options Home, Gallery, Contact and Download. The navigation bar is a consistent feature across all the pages on the website. Clicking on the logo takes the user back to the home page or refreshes the page if your already on the home page. Hero image was taken and provided by Kara Francis.
+
+	-	Scrolling further down the page the user will see more of the hero imagine coupled with the “About Me” section which in on an opaque background with an introductory bio in white writing. The There is also a white button that invites the user to learn more about the owner of the site.
+
+	-	Hovering over the learn more button changes the colour to alert the user that the button is interactive. Clicking on the button creates a new tab where the user can read a bio of the owner. Bio was provided by Kara Francis
+
+	-	Scrolling further down the page the user will come to the “Skills & Services” page. There are six panels that show the services that are provided by the owner. Hovering over each panel highlights them. In the future the user will be able to learn more about those services. Images for Cutting, Colour and styling were all provide by “Keune Cosmetic”. TV & film is from [https://juvale.com/products/b07bs7rq4m](https://juvale.com/products/b07bs7rq4m) and Events and Education were taken and provided by Kara Francis.
+
+	-	The final section is the “Testimonials” where the user can read endorsements from satisfied customers. To add value to the testimonial’s quotation marks and 5 yellow stars validate the comments. All testimonials are real customers and have been provided by Kara Francis.
+
+	-	At the bottom of the page the user will see “Download-CV” with a download icon and “Social” with an Instagram icon. This feature is consistent amongst the pages of the website. Clicking on the download icon opens a new tab where the user can view the owners CV. CV was supplied by Kara Francis
+
+	-	Clicking on the Instagram Icon opens a tab to Instagram.
+
+- **Gallery**
+
+	-	The user will see the logo and navigation bar. There is a line under “Gallery” to show the user what page they are on. There are eight panels placed on top of a purple background. On the panels are images that showcase the owner’s best works. All pictures/videos were taken and supplied by Kara Francis. [https://www.w3schools.com/howto/howto_js_lightbox.asp](https://www.w3schools.com/howto/howto_js_lightbox.asp) was used to create the slideshow pop up.
+
+	-	If the user clicks on anyone of the panel, it will trigger a pop-up slideshow so the user can view the pictures in a larger format.
+
+	-	The slideshow has arrows either side of the picture to encourage the user to view another picture. Underneath each picture is a caption highlighting the colour of the hair.
+
+	-	Clicking on the left or right arrow will toggle the slide show and clicking on **"x"** on the right corner will close the slideshow. The user can track what slide they are on with the numbers on the left corner of each picture.
+
+	-	Slide 7 has a video that the user play with or without sound.
+
+	-	At the bottom of the page is the footer which is the same as the home page.
+
+-	**Contact**
+
+	-	The user will see the logo and navigation bar. There is a line under “Contact” to show the user what page they are on. The user will also see a Google map which shows where the owner can be found. I used the Google maps API to upload the map.
+
+	- Scrolling further down the page poses a question to the user “Need A Consultation?” Below is the owner Email, Phone Number and Business address.
+
+	-	Underneath the owners contain details the user will see a contact form to be completed by the user so they can set up a consultation or ask the owner a question. Beneath the form is the “Send Request” button. Bootstraps form control class for used for the form.
+
+	-	The footer is the same as the other pages.
 
 ## Features
 
