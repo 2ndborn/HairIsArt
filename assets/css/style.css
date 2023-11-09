@@ -1071,4 +1071,8 @@ footer {
         width: 504px;
         height: 296px;
     }
+
+    .gallery-bg {
+        padding-top: 17px;
+    }
 }
