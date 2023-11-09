@@ -462,8 +462,30 @@ Media queries that I was adding were making permanent changes to the desktop. Af
 
 ## Deployment
 
-### Gitpod
+### Github
 I used Git hub to host my repository.
+
+1. Go to [https://github.com/2ndborn/HairIsArt](https://github.com/2ndborn/HairIsArt)
+
+![github site](assets/pdf-files/github1.png)
+
+2. Click on settings.
+
+![Settings](assets/pdf-files/github2.png)
+
+3. Scroll down and click on pages on the left-hand side.
+
+![Pages](assets/pdf-files/github3.png)
+
+4. Scroll down to Build and deployment.
+
+![Build and deploy](assets/pdf-files/github4.png)
+
+5. Where it says “none” change to “main”.
+
+![Save](assets/pdf-files/github5.png)
+
+6. Press “Save” to deploy to GitHub.
 
 Githup pages
 I used Github pages to deploy my website to a live website.
