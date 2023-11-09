@@ -968,6 +968,10 @@ footer {
         width: 504px;
         height: 433px;
     }
+
+    .modal-content {
+        max-height: 337px;
+    }
 }
     
 @media (max-width: 414px) {
@@ -1074,5 +1078,9 @@ footer {
 
     .gallery-bg {
         padding-top: 17px;
+    }
+
+    .modal-content {
+        max-height: 272px;
     }
 }
