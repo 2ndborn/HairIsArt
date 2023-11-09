@@ -900,6 +900,20 @@ footer {
     .row {
         width: 521px;
     }
+
+    .contact-details {
+        text-align: center;
+        margin-top: 33px;
+    }
+
+    .consult-heading {
+        padding-top: 5%;
+    }
+
+    .contact-form {
+        float: none;
+        width: 90%;
+    }
 }
 
 @media (max-width: 430px) {
@@ -953,20 +967,6 @@ footer {
     .row> .column {
         width: 504px;
         height: 433px;
-    }
-
-    .contact-details {
-        text-align: center;
-        margin-top: 33px;
-    }
-
-    .consult-heading {
-        padding-top: 5%;
-    }
-
-    .contact-form {
-        float: none;
-        width: 90%;
     }
 }
     
