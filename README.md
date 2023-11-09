@@ -244,69 +244,67 @@ I tested my website on the following screen sizes:
 
 -	1024px
 
-Home page ![1024](assets/pdf-files/1024s.png)
-Gallery ![1024](assets/pdf-files/gallery_hairisart_1024.png) ![1024](assets/pdf-files/gallery_hairisart_1024\).png)
-Contact ![1024](assets/pdf-files/contact_hairisart_1024.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![1024](assets/pdf-files/1024s.png)
 
 - 912px
 
-Home page ![912](assets/pdf-files/home_hairisart_912.png)
-Gallery ![912](assets/pdf-files/gallery_hairisart_912.png) ![912](assets/pdf-files/gallery_pop_912.png)
-Contact ![912](assets/pdf-files/contact_hairisart_912.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![912](assets/pdf-files/912s.png)
 
 - 820px
 
-Home page ![820](assets/pdf-files/home_hairisart_820.png)
-Gallery ![820](assets/pdf-files/gallery_hairisart_820.png) ![820](assets/pdf-files/gallery_pop_820.png)
-Contact ![820](assets/pdf-files/contact_hairisart_820.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![820](assets/pdf-files/820s.png)
 
 -	768px
 
-Home page ![768](assets/pdf-files/home_hairisart_768.png)
-Gallery ![768](assets/pdf-files/gallery_hairisart_768.png) ![768](assets/pdf-files/gallery_pop_768.png)
-Contact ![768](assets/pdf-files/contact_hairisart_768.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![768](assets/pdf-files/768s.png)
 
 From this point on the user will need to click on the Hamburger icon in order to access the menu. All the screenshots will show the menu after it has been toggled.
 
 Screenshots of the menu before toggling:
 
-
-
 -	540px
 
-Home page ![540](assets/pdf-files/home_hairisart_540.png)
-Gallery ![540](assets/pdf-files/gallery_hairisart_540.png) ![540](assets/pdf-files/gallery_pop_540.png)
-Contact ![540](assets/pdf-files/contact_hairisart_540.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![540](assets/pdf-files/540s.png)
 
 -	430px
 
-Home page ![430](assets/pdf-files/home_hairisart_430.png)
-Gallery ![430](assets/pdf-files/gallery_hairisart_430.png) ![430](assets/pdf-files/gallery_pop_430.png)
-Contact ![430](assets/pdf-files/contact_hairisart_430.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![430](assets/pdf-files/430s.png)
 
 -	414px
 
-Home page ![414](assets/pdf-files/home_hairisart_414.png)
-Gallery ![414](assets/pdf-files/gallery_hairisart_414.png) ![414](assets/pdf-files/gallery_pop_414.png)
-Contact ![414](assets/pdf-files/contact_hairisart_414.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![414](assets/pdf-files/414s.png)
 
 -	390px
 
-Home page ![390](assets/pdf-files/home_hairisart_390.png)
-Gallery ![390](assets/pdf-files/gallery_hairisart_390.png) ![390](assets/pdf-files/gallery_pop_390.png)
-Contact ![390](assets/pdf-files/contact_hairisart_390.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![390](assets/pdf-files/390s.png)
 
 - 360px
 
-Home page ![360](assets/pdf-files/home_hairisart_360.png)
-Gallery ![360](assets/pdf-files/gallery_hairisart_360.png) ![360](assets/pdf-files/gallery_pop_360.png)
-Contact ![360](assets/pdf-files/contact_hairisart_360.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![360](assets/pdf-files/360s.png)
 
 - 280px
 
-Home page ![280](assets/pdf-files/home_hairisart_280.png)
-Gallery ![280](assets/pdf-files/gallery_hairisart_280.png) ![280](assets/pdf-files/gallery_pop_280.png)
-Contact ![280](assets/pdf-files/contact_hairisart_280.png)
+Home, Gallery, Slideshow and Contact pages.
+
+![280](assets/pdf-files/280s.png)
 
 all sections of the website function on all of the sizes listed.
 
