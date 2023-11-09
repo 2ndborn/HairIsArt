@@ -249,7 +249,7 @@ White will be used on the Testimonial section of the Home page.
 - ### Code validation
 
 	-	**CSS**
-	![CSS Validation](assets/pdf-files/c)
+	![CSS Validation](assets/pdf-files/css.val.png
 
 	- **HTML**
 
@@ -264,7 +264,7 @@ The validator spotted an error with the “Send Request” button, explaining th
 		-	Confirmation.html
 There were not areas of concern on this section.
 
-		-	Lighthouse
+		-	**Lighthouse**
 
 			- Home page
 Performance is 67, which is ok but could be better. This is because the format of the pictures are jpeg which is slowing down the performance.
