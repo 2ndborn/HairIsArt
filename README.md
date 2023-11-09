@@ -224,7 +224,9 @@ White will be used on the Testimonial section of the Home page.
 
 ## Wireframes
 
-![wireframes](assets/pdf-files/wireframe.pdf)
+![wireframes Home](assets/pdf-files/home-page.png)
+![wireframes Gallery](assets/pdf-files/gallery-page.png)
+![wireframes Contact](assets/pdf-files/contact-page.png)
 
 ## Technology
 
