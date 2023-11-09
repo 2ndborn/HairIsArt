@@ -249,7 +249,7 @@ White will be used on the Testimonial section of the Home page.
 - ### Code validation
 
 	-	**CSS**
-	[CSS code validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-2ndborn-hairisart-wgtzj4rxkw.us2.codeanyapp.com%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+	![CSS Validation](assets/pdf-files/c)
 
 	- **HTML**
 
