@@ -244,7 +244,7 @@ I tested my website on the following screen sizes:
 
 -	1024px
 
-Home page ![1024](assets/pdf-files/home_hairisart_1024.png)
+Home page ![1024](assets/pdf-files/1024s.png)
 Gallery ![1024](assets/pdf-files/gallery_hairisart_1024.png) ![1024](assets/pdf-files/gallery_hairisart_1024\).png)
 Contact ![1024](assets/pdf-files/contact_hairisart_1024.png)
 
