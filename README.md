@@ -306,12 +306,83 @@ SEO is 89
 -	User who select the “Download” tab in the navigation bar will open a new tab that enables them to view and/or download a copy of the owners CV.
 
 -	Users who scroll to the footer will notice a download icon and a instagram icon. Clicking on the download icon will open up a new tab with the owners CV where they can view and/or download a copy. Clicking on the Instagram icon will open a new tab and transport the user to the owners instagram page.
--	![testing procedure](assets/pdf-files/test.procedures.pdf)
--	![device testing](assets/pdf-files/hair.is.art.device.testing.pdf)
 
-### Fixed bugs
+-	**Test Procedure**
 
-Media queries that I was adding were making permanent changes to the desktop. After doing some research I found that its was because I was using @media screen and (min-width: 768px). I changed this to @media and (min-width: 768px) and it worked.
+	- Does the Logo refresh the page/take the use back the home page?
+
+		-	*I clicked the “logo” and it refreshed the page.*
+		-	*I clicked "Logo” on the Gallery and Contact page and it took me back to the Home page.*
+
+	-	Does “Home” on the navigation bar refresh the page/ take me back to the Home page?
+
+		-	*I clicked “Home” and it refreshed the page.*
+
+		-	*I clicked "Home” on the Gallery and Contact page and it took me back to the Home page.*
+
+	-	Does “Download” on the navigation bar open a new tab the displays the owners CV?
+
+		-	*I clicked “Download” and it opened a new tab with the owners CV.*
+
+	-	Does the “Learn More” button in the About Me section open a new tab that displays the owner’s bio?
+
+		-	*I clicked on the “Learn More" button and it opened a new tab with the user’s bio and picture on it.*
+
+	-	Do the Skills & Services panels highlight when hovered over?
+
+		-	*I hovered over each panel, and they were highlighted with a purple boarder.*
+
+	-	Does the “Download Icon” open a new tab with the owners CV?
+
+		-	*I clicked on the “Download Icon” from the Home, Gallery and Contact and a new tab was opened with the owners CV.*
+
+	-	Does the “Instagram Icon” open a new tab to the Instagram platform?
+
+		*	*I clicked on the Instagram Icon from the Home, Gallery and Contact pages and a new tab was opened to the Instagram platform.*
+
+	-	Does every panel in the Gallery trigger the pop up slide show?
+
+		-	*I clicked on every panel in the Gallery, and they all trigger the slide starting with the panel I clicked on.*
+
+	-	Does the “Close” icon close the slideshow?
+
+		-	*I clicked the close button on every panel, and it closed the slideshow.*
+
+	-	Do the left and right arrows on the slideshow toggle the next and previous pictures?
+
+		-	*I clicked the left arrow 8 times, and it took me through every picture.*
+
+		-	*I clicked on the right arrow 8 times, and it took me through every picture in the reverse direction.*
+
+	-	Does the on slide 7 video play with sound?
+
+		-	*I clicked on panel 7 and it plays a Tik Tok view of the panel red with the sound.*
+
+	-	Can the sound on slide 7 be turned off?
+
+		-	*I clicked on the sound icon on slide 7 and it muted the sound.*
+
+	-	On the Contact page does the Google map zoom buttons zoom in and out?
+
+		-	*I clicked on the “+” and it zoomed in.*
+
+		-	*I clicked on the “-“and it zoomed out.*
+
+	-	Does the “Contact Form” bring up a prompt if the user does not enter the correct format in the email section?
+
+		-	*I tried to type “slfalksdfj” into the email bar and a prompt came up instructing me to “Please include an ‘@’ in the email address. ‘slfalksdfj’ is missing an ‘@’.*
+
+	-	Does the send request button change colour when hovered over?
+
+		-	*I hovered over the “Send Request” button and changed from pink to purple.*
+
+	-	Does the “Send Request” button open a new tab that acknowledges the user’s submission?
+
+		-	*I clicked the “Send Request” and a new tab was opened that said “Your Consultation Request Has Been Successfully Submitted!”*
+
+	-	When Chrome developer tools are opened does the website work on tablet and mobile platforms?
+
+		-	*The website worked on multiple screen sizes.*
 
 **Supported screens & browers**
 
@@ -384,6 +455,10 @@ Home, Gallery, Slideshow and Contact pages.
 ![280](assets/pdf-files/280s.png)
 
 all sections of the website function on all of the sizes listed.
+
+### Fixed bugs
+
+Media queries that I was adding were making permanent changes to the desktop. After doing some research I found that its was because I was using @media screen and (min-width: 768px). I changed this to @media and (min-width: 768px) and it worked.
 
 ## Deployment
 
