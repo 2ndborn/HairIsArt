@@ -243,7 +243,7 @@ I used Google Chrome to develop and test my website.
 I tested my website on the following screen sizes:
 
 -	1024px
-Home page
+Home page ![]
 Gallery
 Contact
 
