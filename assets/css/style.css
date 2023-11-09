@@ -1058,4 +1058,8 @@ footer {
     .bg-colour-testimonials {
         height: 593px;
     }
+
+    .test-heading {
+        padding-bottom: 0;
+    }
 }
