@@ -28,82 +28,6 @@ The goal of the Hair is Art website is to showcase the talents and abilities of 
 
 -	I would like to access the webite using my mobile, tablet and desktop computer.
 
-**User Stories Test Case**
-
-- **Home Page**
-	
-	- When the user enters the Home page, they will she an inviting hero imagine that shoes the logo “Hair Is Art” and the navigation bar that shows the 4 options Home, Gallery, Contact and Download. The navigation bar is a consistent feature across all the pages on the website. Clicking on the logo takes the user back to the home page or refreshes the page if your already on the home page. Hero image was taken and provided by Kara Francis.
-
-	![User 1](assets/pdf-files/user1.png)
-
-	-	Scrolling further down the page the user will see more of the hero imagine coupled with the “About Me” section which in on an opaque background with an introductory bio in white writing. The There is also a white button that invites the user to learn more about the owner of the site.
-
-	![User 2](assets/pdf-files/user2.png)
-
-	-	Hovering over the learn more button changes the colour to alert the user that the button is interactive. Clicking on the button creates a new tab where the user can read a bio of the owner. Bio was provided by Kara Francis
-
-	![User 3](assets/pdf-files/user3.png)
-
-	![User 4](assets/pdf-files/user4.png)
-
-	-	Scrolling further down the page the user will come to the “Skills & Services” page. There are six panels that show the services that are provided by the owner. Hovering over each panel highlights them. In the future the user will be able to learn more about those services. Images for Cutting, Colour and styling were all provide by “Keune Cosmetic”. TV & film is from [https://juvale.com/products/b07bs7rq4m](https://juvale.com/products/b07bs7rq4m) and Events and Education were taken and provided by Kara Francis.
-
-	![User 5](assets/pdf-files/user5.png)
-
-	-	The final section is the “Testimonials” where the user can read endorsements from satisfied customers. To add value to the testimonial’s quotation marks and 5 yellow stars validate the comments. All testimonials are real customers and have been provided by Kara Francis.
-
-	![User 6](assets/pdf-files/user6.png)
-
-	-	At the bottom of the page the user will see “Download-CV” with a download icon and “Social” with an Instagram icon. This feature is consistent amongst the pages of the website. Clicking on the download icon opens a new tab where the user can view the owners CV. CV was supplied by Kara Francis
-
-	![User 7](assets/pdf-files/user7.png)
-
-	-	Clicking on the Instagram Icon opens a tab to Instagram.
-
-	![User 8](assets/pdf-files/user8.png)
-
-- **Gallery**
-
-	-	The user will see the logo and navigation bar. There is a line under “Gallery” to show the user what page they are on. There are eight panels placed on top of a purple background. On the panels are images that showcase the owner’s best works. All pictures/videos were taken and supplied by Kara Francis. [https://www.w3schools.com/howto/howto_js_lightbox.asp](https://www.w3schools.com/howto/howto_js_lightbox.asp) was used to create the slideshow pop up.
-
-	![User 9](assets/pdf-files/user9.png)
-
-	-	If the user clicks on anyone of the panel, it will trigger a pop-up slideshow so the user can view the pictures in a larger format.
-
-	![User 10](assets/pdf-files/user10.png)
-
-	-	The slideshow has arrows either side of the picture to encourage the user to view another picture. Underneath each picture is a caption highlighting the colour of the hair.
-
-	![User 11](assets/pdf-files/user11.png)
-
-	-	Clicking on the left or right arrow will toggle the slide show and clicking on **"x"** on the right corner will close the slideshow. The user can track what slide they are on with the numbers on the left corner of each picture.
-
-	![User 1](assets/pdf-files/slideshow.png)
-
-	-	Slide 7 has a video that the user play with or without sound.
-
-	![User 1](assets/pdf-files/video.png)
-
-	-	At the bottom of the page is the footer which is the same as the home page.
-
-	![User 12](assets/pdf-files/user12.png)
-
--	**Contact**
-
-	-	The user will see the logo and navigation bar. There is a line under “Contact” to show the user what page they are on. The user will also see a Google map which shows where the owner can be found. I used the Google maps API to upload the map.
-
-	![User 13](assets/pdf-files/user13.png)
-
-	- Scrolling further down the page poses a question to the user “Need A Consultation?” Below is the owner Email, Phone Number and Business address.
-
-	![User 14](assets/pdf-files/user14.png)
-
-	-	Underneath the owners contain details the user will see a contact form to be completed by the user so they can set up a consultation or ask the owner a question. Beneath the form is the “Send Request” button. Bootstraps form control class for used for the form.
-
-	![User 15](assets/pdf-files/user15.png)
-
-	-	The footer is the same as the other pages.
-
 ## Features
 
 ### Page consistency
@@ -289,24 +213,82 @@ SEO is 89
 
 ### Test cases
 
--	Users who visit the website for the first time will see the “Hair Is Art” logo on the left and a nav bar containing 4 tabs. The home section is underlined to notify the user that they are currently on the home page.
+**User Stories Test Case**
 
--	Scroll down the page they will see the about me section which contains a small section of text about the owner. Below the text is a pink button that says “Learn More” prompting them to find out more about the owner.
+- **Home Page**
+	
+	- When the user enters the Home page, they will she an inviting hero imagine that shoes the logo “Hair Is Art” and the navigation bar that shows the 4 options Home, Gallery, Contact and Download. The navigation bar is a consistent feature across all the pages on the website. Clicking on the logo takes the user back to the home page or refreshes the page if your already on the home page. Hero image was taken and provided by Kara Francis.
 
--	Clicking on the “Learn More” button will open a new tab with further information about the owners journey.
+	![User 1](assets/pdf-files/user1.png)
 
--	Upon scrolling again users willl see the “Skills & Services” section contains 6 tiles titled Cutting, Colour, Styling, TV & Film, Events and Education. Each tile contains a picture relative to the title. Hover over each section will highlight a border prompting the use to click further. Current nothing happens when you click on the tile, however future updates will reveal further information about the services the owner provides.
+	-	Scrolling further down the page the user will see more of the hero imagine coupled with the “About Me” section which in on an opaque background with an introductory bio in white writing. The There is also a white button that invites the user to learn more about the owner of the site.
 
--	The next section is the “Testimonial” section where user can read up to 3 quotes from previous customer about the service they received from the owner. The user will see 3 quotes on desktop and tablet, but only 2 on mobile.
+	![User 2](assets/pdf-files/user2.png)
 
--	Users who click on the “Gallery” tab in the navigation bar will be taken to the Gallery page where they can view 8 pictures of the owners previous work. Hovering over each picture will zoom in a bit prompting the user to click on the image. Currently nothing happens when the user click the image, however in the updated versions user will be able to see a full screen version of the image.
+	-	Hovering over the learn more button changes the colour to alert the user that the button is interactive. Clicking on the button creates a new tab where the user can read a bio of the owner. Bio was provided by Kara Francis
 
--	User who click on the “Contact” tab on the navigation bar will be taken to the contact page where they will see an interactive Google that highlights the location of the owners place of work. lower down the page they will see the owners contact information on the left (email, phone and work address). On the right side users can enter their details in a form to notify the owner of their interest in a consultation. Press the button labeled “Send Request” will open a new tab that notifies the user that their request has been successfull submited.
+	![User 3](assets/pdf-files/user3.png)
 
--	User who select the “Download” tab in the navigation bar will open a new tab that enables them to view and/or download a copy of the owners CV.
+	![User 4](assets/pdf-files/user4.png)
 
--	Users who scroll to the footer will notice a download icon and a instagram icon. Clicking on the download icon will open up a new tab with the owners CV where they can view and/or download a copy. Clicking on the Instagram icon will open a new tab and transport the user to the owners instagram page.
+	-	Scrolling further down the page the user will come to the “Skills & Services” page. There are six panels that show the services that are provided by the owner. Hovering over each panel highlights them. In the future the user will be able to learn more about those services. Images for Cutting, Colour and styling were all provide by “Keune Cosmetic”. TV & film is from [https://juvale.com/products/b07bs7rq4m](https://juvale.com/products/b07bs7rq4m) and Events and Education were taken and provided by Kara Francis.
 
+	![User 5](assets/pdf-files/user5.png)
+
+	-	The final section is the “Testimonials” where the user can read endorsements from satisfied customers. To add value to the testimonial’s quotation marks and 5 yellow stars validate the comments. All testimonials are real customers and have been provided by Kara Francis.
+
+	![User 6](assets/pdf-files/user6.png)
+
+	-	At the bottom of the page the user will see “Download-CV” with a download icon and “Social” with an Instagram icon. This feature is consistent amongst the pages of the website. Clicking on the download icon opens a new tab where the user can view the owners CV. CV was supplied by Kara Francis
+
+	![User 7](assets/pdf-files/user7.png)
+
+	-	Clicking on the Instagram Icon opens a tab to Instagram.
+
+	![User 8](assets/pdf-files/user8.png)
+
+- **Gallery**
+
+	-	The user will see the logo and navigation bar. There is a line under “Gallery” to show the user what page they are on. There are eight panels placed on top of a purple background. On the panels are images that showcase the owner’s best works. All pictures/videos were taken and supplied by Kara Francis. [https://www.w3schools.com/howto/howto_js_lightbox.asp](https://www.w3schools.com/howto/howto_js_lightbox.asp) was used to create the slideshow pop up.
+
+	![User 9](assets/pdf-files/user9.png)
+
+	-	If the user clicks on anyone of the panel, it will trigger a pop-up slideshow so the user can view the pictures in a larger format.
+
+	![User 10](assets/pdf-files/user10.png)
+
+	-	The slideshow has arrows either side of the picture to encourage the user to view another picture. Underneath each picture is a caption highlighting the colour of the hair.
+
+	![User 11](assets/pdf-files/user11.png)
+
+	-	Clicking on the left or right arrow will toggle the slide show and clicking on **"x"** on the right corner will close the slideshow. The user can track what slide they are on with the numbers on the left corner of each picture.
+
+	![User 1](assets/pdf-files/slideshow.png)
+
+	-	Slide 7 has a video that the user play with or without sound.
+
+	![User 1](assets/pdf-files/video.png)
+
+	-	At the bottom of the page is the footer which is the same as the home page.
+
+	![User 12](assets/pdf-files/user12.png)
+
+-	**Contact**
+
+	-	The user will see the logo and navigation bar. There is a line under “Contact” to show the user what page they are on. The user will also see a Google map which shows where the owner can be found. I used the Google maps API to upload the map.
+
+	![User 13](assets/pdf-files/user13.png)
+
+	- Scrolling further down the page poses a question to the user “Need A Consultation?” Below is the owner Email, Phone Number and Business address.
+
+	![User 14](assets/pdf-files/user14.png)
+
+	-	Underneath the owners contain details the user will see a contact form to be completed by the user so they can set up a consultation or ask the owner a question. Beneath the form is the “Send Request” button. Bootstraps form control class for used for the form.
+
+	![User 15](assets/pdf-files/user15.png)
+
+	-	The footer is the same as the other pages.
+	
 -	**Test Procedure**
 
 	- Does the Logo refresh the page/take the use back the home page?
