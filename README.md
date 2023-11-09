@@ -243,22 +243,26 @@ I used Google Chrome to develop and test my website.
 I tested my website on the following screen sizes:
 
 -	1024px
-Home page ![1024](assets/pdf-fi)
+
+Home page ![1024](assets/pdf-files/home_hairisart_1024.png)
 Gallery ![1024](assets/pdf-files/gallery_hairisart_1024.png) ![1024](assets/pdf-files/gallery_hairisart_1024\).png)
 Contact ![1024](assets/pdf-files/contact_hairisart_1024.png)
 
 - 912px
-Home page 
+
+Home page ![912](assets/pdf-files/home_hairisart_912.png)
 Gallery ![912](assets/pdf-files/gallery_hairisart_912.png) ![912](assets/pdf-files/gallery_pop_912.png)
 Contact ![912](assets/pdf-files/contact_hairisart_912.png)
 
 - 820px
-Home page
+
+Home page ![820](assets/pdf-files/home_hairisart_820.png)
 Gallery ![820](assets/pdf-files/gallery_hairisart_820.png) ![820](assets/pdf-files/gallery_pop_820.png)
 Contact ![820](assets/pdf-files/contact_hairisart_820.png)
 
 -	768px
-Home page 
+
+Home page ![768](assets/pdf-files/home_hairisart_768.png)
 Gallery ![768](assets/pdf-files/gallery_hairisart_768.png) ![768](assets/pdf-files/gallery_pop_768.png)
 Contact ![768](assets/pdf-files/contact_hairisart_768.png)
 
@@ -269,24 +273,40 @@ Screenshots of the menu before toggling:
 
 
 -	540px
-Home page
-Gallery
-Contact
+
+Home page ![540](assets/pdf-files/home_hairisart_540.png)
+Gallery ![540](assets/pdf-files/gallery_hairisart_540.png) ![540](assets/pdf-files/gallery_pop_540.png)
+Contact ![540](assets/pdf-files/contact_hairisart_540.png)
+
+-	430px
+
+Home page ![430](assets/pdf-files/home_hairisart_430.png)
+Gallery ![430](assets/pdf-files/gallery_hairisart_430.png) ![430](assets/pdf-files/gallery_pop_430.png)
+Contact ![430](assets/pdf-files/contact_hairisart_430.png)
+
+-	414px
+
+Home page ![414](assets/pdf-files/home_hairisart_414.png)
+Gallery ![414](assets/pdf-files/gallery_hairisart_414.png) ![414](assets/pdf-files/gallery_pop_414.png)
+Contact ![414](assets/pdf-files/contact_hairisart_414.png)
 
 -	390px
-Home page
-Gallery
-Contact
+
+Home page ![390](assets/pdf-files/home_hairisart_390.png)
+Gallery ![390](assets/pdf-files/gallery_hairisart_390.png) ![390](assets/pdf-files/gallery_pop_390.png)
+Contact ![390](assets/pdf-files/contact_hairisart_390.png)
 
 - 360px
-Home page
-Gallery
-Contact
+
+Home page ![360](assets/pdf-files/home_hairisart_360.png)
+Gallery ![360](assets/pdf-files/gallery_hairisart_360.png) ![360](assets/pdf-files/gallery_pop_360.png)
+Contact ![360](assets/pdf-files/contact_hairisart_360.png)
 
 - 280px
-Home page
-Gallery
-Contact
+
+Home page ![280](assets/pdf-files/home_hairisart_280.png)
+Gallery ![280](assets/pdf-files/gallery_hairisart_280.png) ![280](assets/pdf-files/gallery_pop_280.png)
+Contact ![280](assets/pdf-files/contact_hairisart_280.png)
 
 all sections of the website function on all of the sizes listed.
 
