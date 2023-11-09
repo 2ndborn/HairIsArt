@@ -208,7 +208,8 @@ SEO is 89
 
 ![home page](assets/pdf-files/lighthouse.index.html.png)
 
-			-	Gallery
+			- Gallery
+   
 Performance is 68, which similar to the home page. This is because of the number of pictures to be displayed. Coverting to jpeg2000 would be the best option.
 Accessibility is 96
 Best practice is 100
@@ -216,7 +217,7 @@ SEO is 90
 
 ![gallery](assets/pdf-files/lighthouse.gallery.png)
 
-			-	Contact
+			- Contact
 Performance is 91
 Accessibility is 96
 Best practice is 100
