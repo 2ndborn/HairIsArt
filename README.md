@@ -188,9 +188,7 @@ White will be used on the Testimonial section of the Home page.
   
   		![gallery.html](assets/pdf-files/gallery.html.val.png)
 
-		- Contact
-		
-		The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. 
+		- Contact - The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. 
 
 		![contact.html](assets/pdf-files/contact.html.val.png)
 
