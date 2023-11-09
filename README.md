@@ -236,17 +236,57 @@ SEO is 89
 
 Media queries that I was adding were making permanent changes to the desktop. After doing some research I found that its was because I was using @media screen and (min-width: 768px). I changed this to @media and (min-width: 768px) and it worked.
 
-Supported screens & browers
+**Supported screens & browers**
 
 I used Google Chrome to develop and test my website.
 
 I tested my website on the following screen sizes:
 
--	1200px
 -	1024px
+Home page
+Gallery
+Contact
+
+- 912px
+Home page
+Gallery
+Contact
+
+- 820px
+Home page
+Gallery
+Contact
+
 -	768px
+Home page
+Gallery
+Contact
+
+From this point on the user will need to click on the Hamburger icon in order to access the menu. All the screenshots will show the menu after it has been toggled.
+
+Screenshots of the menu before toggling:
+
+
+
 -	540px
+Home page
+Gallery
+Contact
+
 -	390px
+Home page
+Gallery
+Contact
+
+- 360px
+Home page
+Gallery
+Contact
+
+- 280px
+Home page
+Gallery
+Contact
 
 all sections of the website function on all of the sizes listed.
 
