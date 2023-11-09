@@ -178,12 +178,17 @@ White will be used on the Testimonial section of the Home page.
 	- **HTML**
 
 		 -	Home Page - The validator spotted an error with the “learn-more” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. There were not further areas of concern.
+
 ![index.html](assets/pdf-files/Index.html.val.png)
 
-		-	Gallery - The Gallery section returned only warnings and infomation. ![gallery.html](assets/pdf-files/gallery.html.val.png)
+		-	Gallery - The Gallery section returned only warnings and infomation. 
+  
+  ![gallery.html](assets/pdf-files/gallery.html.val.png)
 
 		- Contact
-The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. ![contact.html](assets/pdf-files/contact.html.val.png)
+The validator spotted an error with the “Send Request” button, explaining that the a element shouldn’t be a descendant of the button element. I retified this by forming and styling a button using the anchor tag. The validator also took issue with the Google Maps iframe width and height. After numerous tests on all plaforms I did see a problem with the maps responsiveness. 
+
+![contact.html](assets/pdf-files/contact.html.val.png)
 
 		-	Confirmation.html
 There were not areas of concern on this section.
@@ -195,6 +200,7 @@ Performance is 67, which is ok but could be better. This is because the format o
 Accessibility is 96
 Best practice is 100
 SEO is 89
+
 ![home page](assets/pdf-files/lighthouse.index.html.png)
 
 			-	Gallery
@@ -202,6 +208,7 @@ Performance is 68, which similar to the home page. This is because of the number
 Accessibility is 96
 Best practice is 100
 SEO is 90
+
 ![gallery](assets/pdf-files/lighthouse.gallery.png)
 
 			-	Contact
@@ -209,6 +216,7 @@ Performance is 91
 Accessibility is 96
 Best practice is 100
 SEO is 89
+
 ![contact](assets/pdf-files/lighthouse.con.png)
 
 ### Test cases
