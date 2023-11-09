@@ -145,7 +145,6 @@ header {
     border: 1px solid #ffe6ff;
 }
 
-
 /* --------------------------------------------------Skills and Services */
 .skills-bg {
     background-color: #ffe6ff;
@@ -169,7 +168,6 @@ header {
     border-radius: 10px; 
     position: relative;
 }
-
 
 .cutting {
     background-image: url('../images/cutting.jpg');
@@ -264,96 +262,7 @@ header {
 }
 
 /* --------------------------------------------------Gallery */
-/*
-.gallery-bg {
-    background-color: #330033;
-    width: 100%;
-    height: 475px;
-    margin: 0 0 10px 0;
-    padding: 7px 0 0 27px;   
-    overflow: hidden;
-}
 
-.gallery-bg img {
-    height: 200px;
-    width: 21.99999%;
-    float: left;
-    background-color: grey;
-    text-align: center;
-    padding-top: 90px;
-    margin: 15px;
-    border-radius: 10px;
-}
-
-.gallery-bg div:hover {
-    transform: scale(1.2);
-    border: 2px solid #ffe6ff;
-}
-
-.pink {
-    background-image: url("../images/pink.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.orange {
-    background-image: url("../images/orange.jpg");
-    background-size: cover;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.pinkpurple {
-    background-image: url("../images/pinkpurple.jpg");
-    background-size: 100% 100%;
-    transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -webkit-transition: all .6s ease-in-out;
-}
-
-.blonde {
-    background-image: url("../images/blonde.jpg");
-    background-size: 100% 100%;
-    transition: all .6s ease-in-out;
-    -moz-transition: all .6s ease-in-out;
-    -webkit-transition: all .6s ease-in-out;
-}
-
-.purple {
-    background-image: url("../images/purple.jpg");
-    background-size: 100% 100%;
-    transition: all .7s ease-in-out;
-    -moz-transition: all .7s ease-in-out;
-    -webkit-transition: all .7s ease-in-out;
-}
-
-.pop-pink {
-    background-image: url("../images/poppink.jpg");
-    background-size: 100% 100%;
-    transition: all .7s ease-in-out;
-    -moz-transition: all .7s ease-in-out;
-    -webkit-transition: all .7s ease-in-out;
-}
-
-.red {
-    background-image: url("../images/red.jpg");
-    background-size: 100% 100%;
-    transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -webkit-transition: all .8s ease-in-out;
-}
-
-.blue {
-    background-image: url("../images/blues.jpg");
-    background-size: 100% 100%;
-    transition: all .8s ease-in-out;
-    -moz-transition: all .8s ease-in-out;
-    -webkit-transition: all .8s ease-in-out;
-}*/
 .gallery-bg {
     display: flex;
     flex-wrap: wrap;
@@ -379,7 +288,8 @@ header {
     clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
+/* From W3schools.com
+Create four equal columns that floats next to eachother */
 .column {
     float: left;
     width: 24%;
@@ -601,7 +511,6 @@ button[type="submit"] {
 }
 
 /* --------------------------------------------------Footer */
-
 footer {
     height: 50px;
     position: relative;
@@ -818,7 +727,6 @@ footer {
     .disappear {
         display: none;
     }  
-    
 }
 
 @media (max-width: 540px)  {
