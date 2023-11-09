@@ -1062,4 +1062,13 @@ footer {
     .test-heading {
         padding-bottom: 0;
     }
+
+    .column img {
+        height: 278px;
+    }
+
+    .row> .column {
+        width: 504px;
+        height: 296px;
+    }
 }
