@@ -319,7 +319,7 @@ White will be used on the Testimonial section of the Home page.
 
 	-	Opera
 
-	![Opera Test](assets/pdf-files/)
+	![Opera Test](assets/pdf-files/opera.hair.png)
 
 	
 -	**Test Procedure**
