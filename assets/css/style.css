@@ -847,6 +847,14 @@ footer {
         float: none;
         width: 90%;
     }
+
+    .confirmation-container {
+        height: 75vh;
+    }
+
+    .confirmation-container p {
+        font-size: 300%;
+    }
 }
 
 @media (max-width: 430px) {
