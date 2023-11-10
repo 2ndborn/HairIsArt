@@ -774,6 +774,10 @@ footer {
         font-size: 14px;
     }
 
+    .bg-colour-testimonials {
+        height: 535px;
+    }
+
     .test-heading {
         padding-bottom: 14px;
     }
