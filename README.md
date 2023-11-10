@@ -303,6 +303,12 @@ White will be used on the Testimonial section of the Home page.
 
 	-	The footer is the same as the other pages.
 
+-	**Confirmation Page**
+
+	-	When the contact form is completed and send is pressed, the user is transported to the confirmation page which displays a messages letting the user know that there request has been actioned.
+
+	
+
 -	**Browser Test**
 
 	-	Chrome
@@ -395,9 +401,19 @@ White will be used on the Testimonial section of the Home page.
 
 		-	*I clicked the “Send Request” and a new tab was opened that said “Your Consultation Request Has Been Successfully Submitted!”*
 
-	-	When Chrome developer tools are opened does the website work on tablet and mobile platforms?
+	-	Does the website work on tablet and mobile platforms?
 
-		-	*The website worked on multiple screen sizes.*
+		-	*The Home, Gallery, Contact and Confirmation pages were tested on the screen sizes below and are functioning properly:*
+			-	*1024 x 1366*
+			-	*912 x 1368*
+			-	*820 x 118*
+			-	*768 x 1024*
+			-	*540 x 720*
+			-	*430 x 932*
+			-	*414 x 896*
+			-	*390 x 844*
+			-	*360 x 740*
+			-	*280 x 653*
 
 **Supported screens & browers**
 
