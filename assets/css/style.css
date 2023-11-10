@@ -962,6 +962,10 @@ footer {
         height: 366px;
     }
 
+    .confirmation-container {
+        height: 81vh;
+    }
+
     .confirmation-container p {
         font-size: 244%;
     }
