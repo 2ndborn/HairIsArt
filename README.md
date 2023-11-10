@@ -304,10 +304,23 @@ White will be used on the Testimonial section of the Home page.
 	-	The footer is the same as the other pages.
 
 -	**Browser Test**
+
 	-	Chrome
+
+	![Chrome Test](assets/pdf-files/chrome.hair.png)
+
 	-	Edge
+
+	![Edge Test](assets/pdf-files/edge.hair.png)
+
 	-	Firefox
+
+	![Firefox Test](assets/pdf-files/firefox.hair.png)
+
 	-	Opera
+
+	![Opera Test](assets/pdf-files/)
+
 	
 -	**Test Procedure**
 
@@ -467,9 +480,21 @@ Media queries that I was adding were making permanent changes to the desktop. Af
 ### Codeanywhere
 
 1.	Go to the [Codeanywhere](https://app.codeanywhere.com/) website.
+
+![Code1](assets/pdf-files/code1.png)
+
 2.	In the Workspaces section click on “2ndborn-hair-is-art-fkx2jdk36o”.
+
+[Code2](assets/pdf-files/code2.png)
+
 3.	Once the page is loaded open a new terminal and type “python3 -m http.server”. Then press Enter.
+
+[Code3](assets/pdf-files/code3.png)
+
 4.	Options to open the preview page or the browser will be shown. Click on the browser.
+
+[Code4](assets/pdf-files/code4.png)
+
 5.	The browser will open.
 
 ### Github
