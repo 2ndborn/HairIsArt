@@ -913,6 +913,15 @@ footer {
     .modal-content {
         max-height: 337px;
     }
+
+    .confirmation-container {
+        height: 83vh;
+    }
+
+    .confirmation-container p {
+        padding-top: 47%;
+        font-size: 274%;
+    }
 }
     
 @media (max-width: 414px) {
