@@ -665,8 +665,6 @@ footer {
     }
 
     .confirmation-container {
-        background-color: #330033;
-        width: 100%;
         height: 85vh;
     }
 
@@ -696,6 +694,10 @@ footer {
 
     .gallery-bg {
         padding-left: 9%;
+    }
+
+    .confirmation-container {
+        height: 83vh;
     }
 }
 
