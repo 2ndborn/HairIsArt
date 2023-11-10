@@ -485,15 +485,15 @@ Media queries that I was adding were making permanent changes to the desktop. Af
 
 2.	In the Workspaces section click on “2ndborn-hair-is-art-fkx2jdk36o”.
 
-[Code2](assets/pdf-files/code2.png)
+![Code2](assets/pdf-files/code2.png)
 
 3.	Once the page is loaded open a new terminal and type “python3 -m http.server”. Then press Enter.
 
-[Code3](assets/pdf-files/code3.png)
+![Code3](assets/pdf-files/code3.png)
 
 4.	Options to open the preview page or the browser will be shown. Click on the browser.
 
-[Code4](assets/pdf-files/code4.png)
+![Code4](assets/pdf-files/code4.png)
 
 5.	The browser will open.
 
