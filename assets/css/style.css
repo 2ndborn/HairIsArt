@@ -971,16 +971,6 @@ footer {
     }
 }
 
-@media (max-width:375px) {
-    .confirmation-container {
-        height: 77vh;
-    }
-
-    .confirmation-container p {
-        padding-top: 42%;
-    }
-}
-
 @media (max-width:360px) {
     #logo {
         margin-left: 0;
