@@ -917,6 +917,14 @@ footer {
         height: 440px;
         top: 511px;
     }
+
+    .column img {
+        height: 352px;
+    }
+
+    .row> .column {
+        height: 366px;
+    }
 }
 
 @media (max-width:360px) {
@@ -947,7 +955,7 @@ footer {
         top: 13px;
     }
 
-    topnav a {
+    .topnav a {
         padding: 7px 16px;
     }
 
