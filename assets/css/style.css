@@ -972,7 +972,6 @@ footer {
 }
 
 @media (max-width:360px) {
-
     #logo {
         margin-left: 0;
         margin-top: 0;
@@ -986,6 +985,15 @@ footer {
     .about-text > p {
         margin: 10px 15px;
         font-size: 15px;
+    }
+
+    .confirmation-container {
+        height: 79vh;
+    }
+
+    .confirmation-container p {
+        padding-top: 42%;
+        font-size: 222%;
     }
 }
 
