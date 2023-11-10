@@ -669,7 +669,6 @@ footer {
     }
 
     .confirmation-container p {
-        font-size: 500%;
         padding-top: 29%;
     }
 }
@@ -702,7 +701,6 @@ footer {
 }
 
 @media (max-width:768px) {
-
     #logo {        
         font-size: 250%;
     }
@@ -739,7 +737,15 @@ footer {
 
     .disappear {
         display: none;
-    }  
+    }
+    
+    .confirmation-container {
+        height: 80vh;
+    }
+
+    .confirmation-container p {
+        padding-top: 17%;
+    }
 }
 
 @media (max-width: 540px)  {
