@@ -196,11 +196,13 @@ White will be used on the Testimonial section of the Home page.
 
 		There were not areas of concern on this section.
 
+		![Confirmation](assets/pdf-files/confirmation.html.val.png)
+
 	-	**Lighthouse**
 
 		-	Home page
  
-			Performance is 67, which is ok but could be better. This is because the format of the pictures are jpeg which is slowing down the 			performance.
+			Performance is 67, which is ok but could be better. This is because the format of the pictures are jpeg which is slowing down the performance.
 			Accessibility is 96
 			Best practice is 100
 			SEO is 89
@@ -307,6 +309,7 @@ White will be used on the Testimonial section of the Home page.
 
 	-	When the contact form is completed and send is pressed, the user is transported to the confirmation page which displays a messages letting the user know that there request has been actioned.
 
+	![Confirmation page](assets/pdf-files/confirmation.page.png)
 	
 
 -	**Browser Test**
