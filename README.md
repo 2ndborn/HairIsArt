@@ -302,6 +302,12 @@ White will be used on the Testimonial section of the Home page.
 	![User 15](assets/pdf-files/user15.png)
 
 	-	The footer is the same as the other pages.
+
+-	**Browser Test**
+	-	Chrome
+	-	Edge
+	-	Firefox
+	-	Opera
 	
 -	**Test Procedure**
 
@@ -457,6 +463,14 @@ all sections of the website function on all of the sizes listed.
 Media queries that I was adding were making permanent changes to the desktop. After doing some research I found that its was because I was using @media screen and (min-width: 768px). I changed this to @media and (min-width: 768px) and it worked.
 
 ## Deployment
+
+### Codeanywhere
+
+1.	Go to the [Codeanywhere](https://app.codeanywhere.com/) website.
+2.	In the Workspaces section click on “2ndborn-hair-is-art-fkx2jdk36o”.
+3.	Once the page is loaded open a new terminal and type “python3 -m http.server”. Then press Enter.
+4.	Options to open the preview page or the browser will be shown. Click on the browser.
+5.	The browser will open.
 
 ### Github
 I used Git hub to host my repository.
