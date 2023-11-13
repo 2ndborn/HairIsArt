@@ -855,9 +855,17 @@ footer {
         width: 521px;
     }
 
+    .flex-contact {
+        margin-top: 2%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
     .contact-details {
         text-align: center;
         margin-top: 33px;
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .consult-heading {
