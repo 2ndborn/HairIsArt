@@ -698,14 +698,6 @@ footer {
         padding-left: 14%;
     }
 
-    .contact-container {
-        height: 471px;
-    }
-
-    .flex-contact {
-        margin-top: 4%;
-    }
-
     .consult-heading {
         padding-top: 3%;
     }
@@ -714,6 +706,14 @@ footer {
 @media (max-width:820px) {
     .gallery-bg {
         padding-left: 9%;
+    }
+
+    .flex-contact {
+        margin-top: 4%;
+    }
+
+    .contact-container {
+        height: 471px;
     }
 
     .confirmation-container {
