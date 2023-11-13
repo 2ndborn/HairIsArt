@@ -656,6 +656,10 @@ footer {
         border: #330033 5px solid;
     }
 
+    .consult-heading {
+        padding-top: 4%;
+    }
+
     .flex-contact {
         margin-top: 11%;
     }
