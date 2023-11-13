@@ -435,6 +435,7 @@ iframe {
 .flex-contact {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .contact-container {
