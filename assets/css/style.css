@@ -664,6 +664,10 @@ footer {
         height: 659px;
     }
 
+    .contact-details {
+        width: 45%;
+    }
+
     .contact-details, .contact-form {
         margin-top: 4%;
         margin-left: 5%;
@@ -671,6 +675,7 @@ footer {
 
     .contact-form {
         margin-right: 10%;
+        width: 50%;
     }
 
     .confirmation-container {
