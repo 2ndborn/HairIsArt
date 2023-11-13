@@ -656,6 +656,10 @@ footer {
         border: #330033 5px solid;
     }
 
+    .flex-contact {
+        margin-top: 11%;
+    }
+
     .contact-container {
         height: 659px;
     }
