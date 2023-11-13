@@ -699,7 +699,11 @@ footer {
     }
 
     .contact-container {
-        height: 645px;
+        height: 471px;
+    }
+
+    .flex-contact {
+        margin-top: 4%;
     }
 
     .consult-heading {
