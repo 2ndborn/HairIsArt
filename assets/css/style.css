@@ -448,7 +448,9 @@ iframe {
 .contact-details {
     padding-right: 15%;
     clear: both;
-    list-style-type: none;   
+    list-style-type: none;
+    margin-left: 10%;
+    width: 40%;   
 }
 
 .contact-form {
