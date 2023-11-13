@@ -855,6 +855,10 @@ footer {
         width: 521px;
     }
 
+    .contact-container {
+        height: 685px;
+    }
+
     .flex-contact {
         margin-top: 2%;
         flex-direction: column;
@@ -866,6 +870,7 @@ footer {
         margin-top: 33px;
         margin-left: 0;
         padding-left: 0;
+        width: 46%;
     }
 
     .consult-heading {
@@ -875,6 +880,7 @@ footer {
     .contact-form {
         float: none;
         width: 90%;
+        margin-left: 10%;
     }
 
     .confirmation-container {
