@@ -1097,6 +1097,10 @@ footer {
         max-height: 272px;
     }
 
+    .contact-details {
+        width: 89%;
+    }
+
     .confirmation-container {
         height: 76vh;
     }
