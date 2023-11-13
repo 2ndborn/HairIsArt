@@ -432,6 +432,11 @@ iframe {
     padding-top: 2%;
 }
 
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+}
+
 .contact-container {
     background-color: #330033;
     width: 100%;
